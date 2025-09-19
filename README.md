@@ -66,3 +66,5 @@ I am thankful to 🤞<a href="https://github.com/kunalg123" target="_blank"><spa
 
 I also acknowledge the support of <span style="color:#00008B;"><b>RISC-V International</b></span>, <span style="color:#00008B;"><b>India Semiconductor Mission (ISM)</b></span>, <span style="color:#00008B;"><b>VLSI Society of India (VSI)</b></span>, and <a href="https://github.com/efabless" target="_blank"><span style="color:#00008B;"><b>Efabless</b></span></a> for making this initiative possible.
 
+👨‍💻 Participant: Gaurav Purohit 
+
