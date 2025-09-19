@@ -124,6 +124,7 @@ The picture clearly shows that the git need to be installed, it also gives us th
 
 <img width="813" height="592" alt="image" src="https://github.com/user-attachments/assets/75936c8c-0bd4-4f79-8c1a-fce4bebc6684" />
 
+## Perfect! Here’s your complete Yosys installation script
 
 ```bash
 $ mkdir vsdflow
@@ -142,6 +143,33 @@ $ git submodule update --init --recursive (if make reports error)
 $ make (run make again)
 $ sudo make install
 $ yosys (test yosys)
+
+```
+
+## iverilog Installation 
+
+```bash
+$ sudo apt-get update
+$ sudo apt-get install iverilog
+```
+<img width="812" height="586" alt="image" src="https://github.com/user-attachments/assets/010cb897-1bc8-44ac-8dc1-2ab7dc77acbe" />
+
+
+
+<img width="822" height="573" alt="image" src="https://github.com/user-attachments/assets/080c1e65-4de9-4ef7-a510-d3baf56e1612" />
+
+## GTKwave Installation 
+```bash
+$ sudo apt-get update
+$ sudo apt-get install gtkwave
+```
+
+<img width="822" height="584" alt="image" src="https://github.com/user-attachments/assets/09af93a6-5935-44e3-8aeb-6ecbb9643490" />
+
+<img width="1001" height="794" alt="image" src="https://github.com/user-attachments/assets/acf8f8bd-e2dd-48ee-9b56-6162479d71d5" />
+
+
+
 
 
 
