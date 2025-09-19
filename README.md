@@ -61,7 +61,7 @@ Here’s what I achieved in the first week of the **RISC-V SoC Tapeout Program**
 - 💻 **Environment Setup:** Learned how to set up the **basic RTL design and synthesis environment** for future experiments.  
 - 🏗️ **System Prepared:** Configured the system and prepared it for the upcoming **RTL → GDSII flow** experiments.  
 ## 🙏 Acknowledgment
-I am thankful to <a href="https://github.com/kunalg123" target="_blank"><span style="color:#00008B;"><b>Kunal Ghosh</b></span></a> and Team <a href="https://vsdiat.vlsisystemdesign.com/" target="_blank"><span style="color:#00008B;"><b>VLSI System Design (VSD)</b></span></a> for the opportunity to participate in the ongoing <span style="color:#00008B;"><b>RISC-V SoC Tapeout Program</b></span>.
+I am thankful to 🤞<a href="https://github.com/kunalg123" target="_blank"><span style="color:#00008B;"><b>Kunal Ghosh</b></span></a> and Team <a href="https://vsdiat.vlsisystemdesign.com/" target="_blank"><span style="color:#00008B;"><b>VLSI System Design (VSD)</b></span></a> for the opportunity to participate in the ongoing <span style="color:#00008B;"><b>RISC-V SoC Tapeout Program</b></span>.
 
 I also acknowledge the support of <span style="color:#00008B;"><b>RISC-V International</b></span>, <span style="color:#00008B;"><b>India Semiconductor Mission (ISM)</b></span>, <span style="color:#00008B;"><b>VLSI Society of India (VSI)</b></span>, and <a href="https://github.com/efabless" target="_blank"><span style="color:#00008B;"><b>Efabless</b></span></a> for making this initiative possible.
 
