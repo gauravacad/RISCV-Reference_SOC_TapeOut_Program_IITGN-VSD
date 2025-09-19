@@ -9,8 +9,9 @@ From concepts to Silicon, <span style="color:#1E90FF;">Shaping INDIA's Semicondu
   <img width="491" height="279" alt="image" src="https://github.com/user-attachments/assets/8c1416df-2490-43b8-906b-666b3d9aad75" />
 </p>
 
-## 📌 Organiser: IIT Gandhinagar (IITGN) + VSD + SCL + Synopsys + Platforms + RISV core and Efabless 
-It is a program organised by *[Indian Institute of Technology, Gandhinagar](https://www.iitgn.ac.in/)* in collaboration with *[VSD (VLSI System Design)](https://vsdiat.vlsisystemdesign.com/)* and *[Efabless](https://github.com/efabless)* using open-source EDA community tools.
+## 📌 Organiser:   
+It is a program organised by *[Indian Institute of Technology, Gandhinagar (IITGN)](https://www.iitgn.ac.in/)* in collaboration with *[VSD (VLSI System Design)](https://vsdiat.vlsisystemdesign.com/)*, *[SCL](https://scl.gov.in/)*, *[Synopsys](https://www.synopsys.com/)*, *[Platforms](https://www.platforms.org/)*, *[RISC-V Core Team](https://riscv.org/)*, and *[Efabless](https://github.com/efabless)* using open-source EDA community tools.
+.
 ---
 
 ## 📌 Program Objectives
