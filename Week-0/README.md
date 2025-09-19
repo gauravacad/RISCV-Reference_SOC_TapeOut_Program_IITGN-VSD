@@ -114,6 +114,16 @@ The picture clearly shows that the git need to be installed, it also gives us th
 
 <img width="1267" height="593" alt="image" src="https://github.com/user-attachments/assets/cf5d188c-54df-49da-876a-24409325328a" />
 
+<img width="1299" height="720" alt="image" src="https://github.com/user-attachments/assets/e680ff13-a683-4801-9915-7ccf5d970712" />
+
+- After make install
+
+<img width="817" height="598" alt="image" src="https://github.com/user-attachments/assets/8e700ae9-1685-41bb-9232-ef46d0fb46e0" />
+
+- exit to comeout on terminal
+
+<img width="813" height="592" alt="image" src="https://github.com/user-attachments/assets/75936c8c-0bd4-4f79-8c1a-fce4bebc6684" />
+
 
 ```bash
 $ mkdir vsdflow
@@ -132,10 +142,6 @@ $ git submodule update --init --recursive (if make reports error)
 $ make (run make again)
 $ sudo make install
 $ yosys (test yosys)
-$ 
-
-
-
 
 
 
