@@ -50,7 +50,7 @@ VLSI is not just a buzzword but a career that demands patience, depth, and const
 
 | Task    | Description | Status   | Help Material | Submission Date |
 |---------|-------------|----------|---------------|-----------------|
-| Task0   | 🛠️ Tools Installation — Installed **Iverilog**, **Yosys**, and **GTKWave** | ✅ Done | [Link / Notes]() |20th Sep. 2025|
+| Task0   | 🛠️ Tools Installation — Installed **Iverilog**, **Yosys**, and **GTKWave** | ✅ Done | [(https://github.com/gauravacad/RISCV-Reference_SOC_TapeOut_Program_IITGN-VSD/blob/main/Week-0/README.md)]() |20th Sep. 2025|
 | Task1   | <p>✍️ will be updated soon<p> | ⏳ In Progress | [Link / Notes]() | TBD
 
 
