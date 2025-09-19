@@ -47,14 +47,21 @@ VLSI is not just a buzzword but a career that demands patience, depth, and const
 ## 📅 Week 0 — Setup & Tools
 
 
-| Task   | Description | Status   | Help Material | Submission Date |
-|--------|-------------|----------|---------------|-----------------|
-| Task 0 | 🛠️ Tools Installation — Installed **Iverilog**, **Yosys**, and **GTKWave** | ✅ Done | [Link / Notes]() |20th september 2025|
-| Task 1 | ✍️ (Add your task here) | ⏳ In Progress | [Link / Notes]() |
-| Task 2 | ✍️ (Add your task here) | ⏳ In Progress | [Link / Notes]() |
-| Task 3 | ✍️ (Add your task here) | ⏳ In Progress | [Link / Notes]() |
+| Task    | Description | Status   | Help Material | Submission Date |
+|---------|-------------|----------|---------------|-----------------|
+| Task 0  | 🛠️ Tools Installation — Installed **Iverilog**, **Yosys**, and **GTKWave** | ✅ Done | [Link / Notes]() |20th september 2025|
+| Task 1  | ✍️ will be updated soon | ⏳ In Progress | [Link / Notes]() | TBD
 
 
+## 🌟 Key Learnings from Week 0
+
+Here’s what I achieved in the first week of the **RISC-V SoC Tapeout Program**:
+
+- 🛠️ **Tools Installed & Verified:** Successfully installed **Iverilog**, **Yosys**, and **GTKWave**, and verified their functionality.  
+- 💻 **Environment Setup:** Learned how to set up the **basic RTL design and synthesis environment** for future experiments.  
+- 🏗️ **System Prepared:** Configured the system and prepared it for the upcoming **RTL → GDSII flow** experiments.  
 ## 🙏 Acknowledgment
-I am thankful to <u>**Kunal Ghosh**</u> and Team <u>**VLSI System Design (VSD)**</u> for the opportunity to participate in the ongoing <u>**RISC-V SoC Tapeout Program**</u>.  
-I also acknowledge the support of <u>**RISC-V International**</u>, <u>**India Semiconductor Mission (ISM)**</u>, <u>**VLSI Society of India (VSI)**</u>, and <u>**Efabless**</u> for making this initiative possible.  
+I am thankful to <a href="https://github.com/kunalg123" target="_blank"><span style="color:#00008B;"><b>Kunal Ghosh</b></span></a> and Team <a href="https://vsdiat.vlsisystemdesign.com/" target="_blank"><span style="color:#00008B;"><b>VLSI System Design (VSD)</b></span></a> for the opportunity to participate in the ongoing <span style="color:#00008B;"><b>RISC-V SoC Tapeout Program</b></span>.
+
+I also acknowledge the support of <span style="color:#00008B;"><b>RISC-V International</b></span>, <span style="color:#00008B;"><b>India Semiconductor Mission (ISM)</b></span>, <span style="color:#00008B;"><b>VLSI Society of India (VSI)</b></span>, and <a href="https://github.com/efabless" target="_blank"><span style="color:#00008B;"><b>Efabless</b></span></a> for making this initiative possible.
+
