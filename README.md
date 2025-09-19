@@ -1,5 +1,10 @@
-#  RISCV-Reference_SOC_TapeOut_Program_IITGN-VSD 
-## From concepts to Silicon, Shaping INDIA's Semiconductor Program 🤞
+<h1 align="center" style="color:#4B0082;">
+RISCV-Reference_SOC_TapeOut_Program_IITGN-VSD
+</h1>
+
+<h3 align="center" style="color:#FF4500;">
+From concepts to Silicon, <span style="color:#1E90FF;">Shaping INDIA's Semiconductor Program 🤞</span>
+</h3>
 <p align="center">
   <img width="491" height="279" alt="image" src="https://github.com/user-attachments/assets/8c1416df-2490-43b8-906b-666b3d9aad75" />
 </p>
