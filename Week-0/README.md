@@ -12,7 +12,7 @@
 
 
 ## What type of machine we need to prepare it for Week - 0 Task ?
-Dear Friend we need a Computer machine either Installed with Windows 10/11 or Linux - Ubuntu / Centos or Mac. If we dont have Linus machine then we need a 🎯 Virtual Machine Configuration for which Instruction Pdf is provided. 
+Dear Friend we need a Computer machine either Installed with Windows 10/11 or Linux - Ubuntu / Centos or Mac. If we dont have Linux machine then we need a 🎯 Virtual Machine Configuration for which Instruction Pdf is provided. 
 Here Oracle virtual machine link is given (https://www.virtualbox.org/wiki/Downloads) Just download the virtual machine
 
 
@@ -24,12 +24,12 @@ Click on "Windows Host" and a file named VirtualBox-7.2.2-170484-Win.exe get dow
 VirtualBox is a free and open-source virtualization software developed by Oracle. It allows you to run multiple operating systems (OS) on your computer at the same time — like running Linux inside Windows or macOS, without needing to restart your machine. Here your main computer’s e.g., Windows, macOS, Linux becomes a Host and VirtualBox becomes middle man where the Guest OS i.e. Ubuntu get runs. On top of this we will install the Opensource tools (Yosys, OpenLane, Magic, etc.). 
 
 ## How to install the Ubuntu 20.04 on this VirtualBox.
-Before this We are sure that VirtualBox is already installed. Now for Ubuntu 20.04+ we will visit the site (https://ubuntu.com/download). Here amon many move to Desktop Ubuntu for download
+Before this make sure that VirtualBox is already installed in your windows machine. Now for Ubuntu 20.04+ please visit the link (https://ubuntu.com/download). Move to Desktop Ubuntu for download.
 
 
 <img width="1614" height="664" alt="image" src="https://github.com/user-attachments/assets/93e36ff4-2f14-4e4c-b9c6-91771a2c1972" />
 
-Here, In the Picture the Blue tick shows the way we will click upon and download. Next on click you will land to the page with the Image as shown below
+In this Picture the Blue tick shows the forward path you need to click upon for Ubuntu ISO image download on your computer. On click you will land to the page showing the Intel or AMD 64-bit architecture dont choose ARM one (in general it is not for us).
 
 <img width="1006" height="273" alt="image" src="https://github.com/user-attachments/assets/89f1aed6-784a-4ce4-a2fc-5766d2afb3a1" />
 
@@ -43,6 +43,10 @@ It’s basically a digital copy (archive) of the entire disc, including
 -  👉 File system structure
 
 ## Now we will give steps to install the this Ubuntu.ISO image with Virtualbox.
+Please check this 3 minute video for installation of ubuntu only. Choose your OS machine to Win 10/ 11 in the first section. Dont worry if not known to you. Just move with video.
+
+
+https://github.com/user-attachments/assets/87c6f65a-90e2-4cdc-887e-dd326d633b22
 
 
 
