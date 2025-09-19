@@ -10,8 +10,17 @@ From concepts to Silicon, <span style="color:#1E90FF;">Shaping INDIA's Semicondu
 </p>
 
 ## 📌 Organiser:   
-It is a program organised by *[Indian Institute of Technology, Gandhinagar (IITGN)](https://www.iitgn.ac.in/)* in collaboration with *[VSD (VLSI System Design)](https://vsdiat.vlsisystemdesign.com/)*, *[SCL](https://scl.gov.in/)*, *[Synopsys](https://www.synopsys.com/)*, *[Platforms](https://www.platforms.org/)*, *[RISC-V Core Team](https://riscv.org/)*, and *[Efabless](https://github.com/efabless)* using open-source EDA community tools.
-.
+It is a program organised by [**Indian Institute of Technology, Gandhinagar (IITGN)**](https://iitgn.ac.in/) in collaboration with:
+
+- [**VSD (VLSI System Design)**](https://www.vlsisystemdesign.com/)
+- [**SCL**](https://www.scl.gov.in/)
+- [**Synopsys**](https://www.synopsys.com/)
+- [**Platforms**](https://platforms.synopsys.com/) <!-- change if different -->
+- [**RISC-V Core Team**](https://riscv.org/)
+- [**Efabless**](https://efabless.com/)
+
+using open-source EDA community tools.
+
 ---
 
 ## 📌 Program Objectives
@@ -48,10 +57,11 @@ VLSI is not just a buzzword but a career that demands patience, depth, and const
 ## 📅 Week 0 — Setup & Tools
 
 
-| Task    | Description | Status   | Help Material | Submission Date |
-|---------|-------------|----------|---------------|-----------------|
-| Task0   | 🛠️ Tools Installation — Installed **Iverilog**, **Yosys**, and **GTKWave** | ✅ Done | [(https://github.com/gauravacad/RISCV-Reference_SOC_TapeOut_Program_IITGN-VSD/blob/main/Week-0/README.md)]() |20th Sep. 2025|
-| Task1   | <p>✍️ will be updated soon<p> | ⏳ In Progress | [Link / Notes]() | TBD
+| Task   | Description                                         | Status       | Help Material                                                                 | Submission Date   |
+|--------|-----------------------------------------------------|--------------|-------------------------------------------------------------------------------|------------------|
+| Task0  | 🛠️ Tools Installation — Installed Iverilog, Yosys, and GTKWave | ✅ Done      | [Week-0](./Week-0/README.md)                                                  | 20th Sep. 2025   |
+| Task1  | ✍️ will be updated soon                             | ⏳ In Progress | [Week-1](./Week-1/README.md) *(to be added)*                                  | TBD              |
+
 
 
 ## 🌟 Key Learnings from Week 0
