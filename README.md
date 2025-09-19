@@ -27,7 +27,7 @@ using open-source EDA community tools.
 The program focuses on hands-on chip design using open-source tools like: Yosys (logic synthesis), OpenROAD/OpenLane (place & route), Magic/KLayout (layout & DRC/LVS checks), with SkyWater 130nm PDK (open-source process design kit)
 The repository is created as Weekly assignment given under the umberella for RISCV-Reference SOC TapeOut program for 10 weeks.
 
-## 🧐 Now, let's us see the individual term one by one to #🧠-💭think how the Program is being formulated and floated
+## 🧐 Now, let's us see the individual term one by one to 🧠#Ananlyse - 💭 #Think  using which the Program is formulated for us.
 <p align="justify">
 
 <table>
@@ -59,8 +59,9 @@ VLSI is not just a buzzword but a career that demands patience, depth, and const
 
 | Task   | Description                                         | Status       | Help Material                                                                 | Submission Date   |
 |--------|-----------------------------------------------------|--------------|-------------------------------------------------------------------------------|------------------|
-| Task0  | 🛠️ Tools Installation — Installed Iverilog, Yosys, and GTKWave | ✅ Done      | [Week-0](./Week-0/README.md)                                                  | 20th Sep. 2025   |
-| Task1  | ✍️ will be updated soon                             | ⏳ In Progress | [Week-1](./Week-1/README.md) *(to be added)*                                  | TBD              |
+| Task0  | 🛠️ Tools Installation — Installed Iverilog, Yosys, and GTKWave | ✅ Done      | 1. [📄 Week-0 Notes](./Week-0/README.md) <br> 2. [📄 VSD Installation Guide](./Week-0/VSD_Installation_Guide.pdf) | 20th Sep. 2025   |
+| Task1  | ✍️ will be updated soon                             | ⏳ In Progress | 1. [📄 Week-1 Notes](./Week-1/README.md) <br> *(to be added)*                                                               | TBD              |
+
 
 
 
