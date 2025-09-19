@@ -50,7 +50,7 @@ VLSI is not just a buzzword but a career that demands patience, depth, and const
 
 | Task    | Description | Status   | Help Material | Submission Date |
 |---------|-------------|----------|---------------|-----------------|
-| Task 0  | <p>🛠️ Tools Installation — Installed **Iverilog**, **Yosys**, and **GTKWave** <p>| ✅ Done | [Link / Notes]() |20th september 2025|
+| <p>Task 0 <p> | 🛠️ Tools Installation — Installed **Iverilog**, **Yosys**, and **GTKWave** | ✅ Done | [Link / Notes]() |20th september 2025|
 | Task 1  | <p>✍️ will be updated soon<p> | ⏳ In Progress | [Link / Notes]() | TBD
 
 
