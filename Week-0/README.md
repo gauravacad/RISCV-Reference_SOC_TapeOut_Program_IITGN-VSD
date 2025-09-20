@@ -276,11 +276,36 @@ $ magic
 
                                             After 💡 Solution Applied ✅ Magic Successfully Installed
  
-    
+## 🙌✨🤖💡 “Good job,” 🚀🎉 If you have reached to this place Appreciate yourself 🚀   
+
+# 🎉 Installation Summary 🎉
+
+| Tool        | Status     | Primary Use          |
+|-------------|------------|----------------------|
+| 🧠 **Yosys**      | ✅ Complete | RTL Synthesis        |
+| 📟 **Iverilog**   | ✅ Complete | Verilog Simulation   |
+| 📊 **GTKWave**    | ✅ Complete | Waveform Analysis    |
+| ⚡ **Ngspice**    | ✅ Complete | Circuit Simulation   |
+| 🎨 **Magic VLSI** | ✅ Complete | Layout Design        |
+
+---
+
+🚀 **Environment Ready for VLSI Design Journey!**
 
 
-  
+## 🙌 Appreciation
 
+Thanks for following along! 🚀  
+Every step forward is a win 🎉 — keep building, keep learning!  
+
+## 📚 Program: VLSI System Design (VSD)
+
+I am thankful to [Kunal Ghosh](https://www.linkedin.com/in/kunalghosh-vsd/) and the [VLSI System Design (VSD)](https://www.vlsisystemdesign.com/) team for the opportunity to participate in the ongoing **RISC-V SoC Tapeout Program**.
+
+
+## By Your Friend
+
+[Gaurav Purohit](https://www.linkedin.com/in/gaurav-purohit-355b72229/)
 
 
 
