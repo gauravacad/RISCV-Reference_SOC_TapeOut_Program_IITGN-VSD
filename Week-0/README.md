@@ -48,6 +48,24 @@ Please check this 3 minute video for installation of ubuntu only. Choose your OS
 
 https://github.com/user-attachments/assets/87c6f65a-90e2-4cdc-887e-dd326d633b22
 
+## 🔧 Enable Copy-Paste in VirtualBox (Linux Guest). "Do with care if you really need to paste "
+- Enable Bidirectional mode here : Enjoy 
+<img width="650" height="558" alt="image" src="https://github.com/user-attachments/assets/56c1ae1a-22e0-4dea-9a0d-f8e711e731bc" />
+
+- Also need to enable the Guest additions
+  
+ <img width="1005" height="563" alt="image" src="https://github.com/user-attachments/assets/9a86d2d6-866d-40d3-8010-4034b19598a4" />
+
+- After that make changes in setting panel of Virtual Box mangaer
+- 
+  <img width="529" height="422" alt="image" src="https://github.com/user-attachments/assets/0119f634-4904-4acb-ae2e-8e89c2b4930f" />
+
+- For HD display setting , Right click and go in Display setting and make changes as shown
+
+  <img width="1290" height="773" alt="image" src="https://github.com/user-attachments/assets/94f7d7aa-b350-4604-9216-37f0087aeeca" />
+
+
+
 ## ⚙️ Tool Installation & Verification 
 - 👉 Now inside the VirtualBox you will have Ubuntu. Here right click and open an terminal. IF you dont find see the image below
 
@@ -167,9 +185,101 @@ $ sudo apt-get install gtkwave
 <img width="822" height="584" alt="image" src="https://github.com/user-attachments/assets/09af93a6-5935-44e3-8aeb-6ecbb9643490" />
 
 <img width="1001" height="794" alt="image" src="https://github.com/user-attachments/assets/acf8f8bd-e2dd-48ee-9b56-6162479d71d5" />
+                                          ✅ GTKWave Successfully Installed
+
+## ⚡Ngspice – Circuit Simulator
+- Purpose: Performs analog and mixed-signal circuit simulation.
+- Ngspice is a mixed-level/mixed-signal circuit simulator based on Spice3f5, Cider1b1 and Xspice.
+  
+## Ngspice Installation 
+```bash
+$ sudo apt-get update
+$ sudo apt-get install ngspice
+```
+<img width="546" height="390" alt="image" src="https://github.com/user-attachments/assets/0cffa986-e510-4be8-bd42-6691344f4816" />
+
+## 📷 Installation Verification
+
+<img width="835" height="382" alt="image" src="https://github.com/user-attachments/assets/8bd9504e-23fa-4df7-b5dc-36205edea9b6" />
+
+                                          ✅ Ngspice Successfully Installed
+
+## 🎨 Magic VLSI – Layout Tool
+- Purpose: Magic VLSI Layout Tool performs design and layout editing. Developed at UC Berkeley (John Ousterhout, the same person behind Tcl/Tk)
+- Still actively used in academic and open-source ASIC flows (e.g., with SkyWater SKY130 PDK).
+- Key enabler in the Open Source Silicon ecosystem (Google + Efabless shuttle programs).
+
+ ## ✅ Magic VLSI Installation
+ ```bash
+# The code is one line with assume auto Yes for all the packages.
+$ sudo apt-get update
+$ sudo apt-get install -y m4 tcsh csh libx11-dev tcl-dev tk-dev \
+    libcairo2-dev mesa-common-dev libglu1-mesa-dev libncurses-dev
+$ cd vsdflow
+
+# Clone Magic repository
+$ git clone https://github.com/RTimothyEdwards/magic
+$ cd magic
+
+# Configure build
+$ ./configure
+
+# Build Magic
+$ make
+
+# Install system-wide
+$ sudo make install
+
+# test the installation
+$ which magic
+$ magic
+
+```
+
+<img width="824" height="504" alt="image" src="https://github.com/user-attachments/assets/73672b27-996d-4e32-87cf-9e62f3524e7d" />
+
+- Running ./congifure will output like this condition no error in any step before
+
+<img width="779" height="513" alt="image" src="https://github.com/user-attachments/assets/de350132-9f5d-4f66-a850-d4305fbb88e9" />
+
+- Now sysem wide install some people may get output error. Even after doing properly you may get some error or system lands to ❌ Error. One of the error I have for e.g.
+   
+<img width="762" height="510" alt="image" src="https://github.com/user-attachments/assets/ef881c1f-1f5f-4798-a65a-ba23b5661e78" />
+
+                                                                          ❌ Error
+
+- Now Solution is for the error is like performing the same steps with care.
+
+ ```bash
+
+# move to same folder and clean the build
+$ cd ~/magic    # or where you cloned Magic
+# clean Build Magic
+$ make clean
+
+# Check the dependencies again 
+$ sudo apt-get install -y tcl-dev tk-dev tcl8.6-dev tk8.6-dev \
+    libx11-dev libcairo2-dev mesa-common-dev libglu1-mesa-dev \
+    libncurses-dev
+
+# configure, Build and Install again 
+$ ./configure --with-tcl --with-tk --with-x
+$ sudo make
+$ sudo make install
+
+# test the installation
+$ which magic
+$ magic
+```
+
+<img width="673" height="523" alt="image" src="https://github.com/user-attachments/assets/0c68474a-a1c7-4b71-9ac1-5af50e89b644" />
+
+                                            After 💡 Solution Applied ✅ Magic Successfully Installed
+ 
+    
 
 
-
+  
 
 
 
