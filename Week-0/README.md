@@ -390,11 +390,12 @@ make test
 
 <img width="767" height="473" alt="image" src="https://github.com/user-attachments/assets/db6a7e3c-0ef6-4ff0-ad36-d78eb5c0c043" />
 
-## make mount Test Run
+## make mount & make test Run
 
 
 <img width="804" height="587" alt="image" src="https://github.com/user-attachments/assets/663010f4-e3e3-4a48-88cd-714d289cc9b8" />
 
+<img width="873" height="590" alt="image" src="https://github.com/user-attachments/assets/5ded2e50-edfe-4117-97f1-adecd13da9ec" />
 
 ✅ Openlane Installation Done
 
