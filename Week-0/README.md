@@ -278,17 +278,105 @@ $ magic
 
 ---
 ## ⚙️ Openlane Tool Verification
+## 🐳 **Installing Docker**
 
-<img width="945" height="260" alt="Image" src="https://github.com/user-attachments/assets/057450a9-a599-4922-bbe3-86aaa68c62ed" />
+<details>
+<summary><b>Purpose:</b> Docker provides containerized environment for OpenLane tools.</summary>
 
-## Make command run 
-<img width="1007" height="491" alt="Image" src="https://github.com/user-attachments/assets/8c76fa4c-fe9e-445f-9638-4cb9aad5de58" />
+Docker ensures consistent tool behavior across different systems and simplifies the installation process.
 
-## make Test Run
+</details>
 
-<img width="1002" height="626" alt="Image" src="https://github.com/user-attachments/assets/56c05bdc-64fb-413b-a656-042e28995494" />
+### **Step 1: Set Up Docker Repository**
+```bash
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+```
+
+Add Docker's official repository:
+```bash
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo \"$VERSION_CODENAME\") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+```
+
+### **Step 2: Install Docker Engine**
+```bash
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+```
+
+### **Step 3: Verify Installation**
+Run the test image:
+```bash
+sudo docker run hello-world
+```
+
+<div align="center">
+
+✅ **Docker Successfully Installed**
+
+</div>
+
+---
+
+## ⚠️ **Fixing Docker Permissions**
+
+<details>
+<summary><b>Important:</b> Required if you encounter "permission denied" errors.</summary>
+
+This step allows running Docker commands without sudo, which is essential for OpenLane operation.
+
+</details>
+
+If you encounter a **"permission denied"** error related to Docker socket access:
+
+### **Add Your User to the Docker Group**
+```bash
+# Create the docker group (if it doesn't exist)
+sudo groupadd docker
+
+# Add your user to the docker group
+sudo usermod -aG docker $USER
+
+# Log out and back in for group changes to take effect
+```
+
+> 💡 **Pro Tip:** After running these commands, you need to log out and back in, or restart your terminal session.
+
+<div align="center">
+
+✅ **Docker Permissions Fixed**
+
+</div>
+
+---
+
+## 🧰 **Installing OpenLane**
+## Installation need some fix in `Makefile` else you will land to `ciel` error. 
+
+
+<img width="764" height="572" alt="image" src="https://github.com/user-attachments/assets/64e58af6-b4d6-4fb9-9179-89ee544729fd" />
 
 ## Error in Make due to Sky PDK Version 
+```bash
+# Open the Makefile in test editor or Vim editor
+# In test editor in top right corner enable `show line number`
+# Change the Line number 67
+export PDK_FAMILY ?= sky130
+# Add a new line 68 as 
+export PDK_VERSION ?= 0fe599b2afb6708d281543108caf8310912f54af 
+# Also Change the Line number 115
+./venv/bin/ciel enable --pdk-family $(PDK_FAMILY) $(PDK_VERSION)
+#save the make file and rerun the `make` command
+make pdk
+make
+make test
+```
 
 <img width="645" height="78" alt="Image" src="https://github.com/user-attachments/assets/fdf6192a-fc7b-4c50-a95d-3a9e97df775f" />
 
@@ -296,6 +384,13 @@ $ magic
 
 <img width="744" height="109" alt="Image" src="https://github.com/user-attachments/assets/5e23129c-e0b4-45db-920f-31f66e863f18" />
 
+
+
+## Make command run 
+
+<img width="767" height="473" alt="image" src="https://github.com/user-attachments/assets/db6a7e3c-0ef6-4ff0-ad36-d78eb5c0c043" />
+
+## make Test Run
 
 
 ✅ Openlane Installation Done
