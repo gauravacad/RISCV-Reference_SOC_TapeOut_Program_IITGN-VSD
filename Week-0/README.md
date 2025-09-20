@@ -275,19 +275,42 @@ $ magic
 <img width="673" height="523" alt="image" src="https://github.com/user-attachments/assets/0c68474a-a1c7-4b71-9ac1-5af50e89b644" />
 
                                             After 💡 Solution Applied ✅ Magic Successfully Installed
- 
-## 🙌✨🤖💡 “Good job,” 🚀🎉 If you have reached to this place Appreciate yourself 🚀   
 
-# 🎉 Installation Summary 🎉
+---
+## ⚙️ Openlane Tool Verification
+
+<img width="945" height="260" alt="Image" src="https://github.com/user-attachments/assets/057450a9-a599-4922-bbe3-86aaa68c62ed" />
+
+## Make command run 
+<img width="1007" height="491" alt="Image" src="https://github.com/user-attachments/assets/8c76fa4c-fe9e-445f-9638-4cb9aad5de58" />
+
+## make Test Run
+
+<img width="1002" height="626" alt="Image" src="https://github.com/user-attachments/assets/56c05bdc-64fb-413b-a656-042e28995494" />
+
+## Error in Make due to Sky PDK Version 
+
+<img width="645" height="78" alt="Image" src="https://github.com/user-attachments/assets/fdf6192a-fc7b-4c50-a95d-3a9e97df775f" />
+
+## Need committ changes in Makefile version 
+
+<img width="744" height="109" alt="Image" src="https://github.com/user-attachments/assets/5e23129c-e0b4-45db-920f-31f66e863f18" />
+
+
+
+✅ Openlane Installation Done
+
+
+## 🚶🚶🚶 Tools Final Summary
 
 | Tool        | Status     | Primary Use          |
-|-------------|------------|----------------------|
-| 🧠 **Yosys**      | ✅ Complete | RTL Synthesis        |
-| 📟 **Iverilog**   | ✅ Complete | Verilog Simulation   |
-| 📊 **GTKWave**    | ✅ Complete | Waveform Analysis    |
-| ⚡ **Ngspice**    | ✅ Complete | Circuit Simulation   |
-| 🎨 **Magic VLSI** | ✅ Complete | Layout Design        |
-
+|-------------|------------|---------------------|
+|1.  **Yosys**      | ✅ Complete | For RTL Synthesis       |
+|2.   **Iverilog**   | ✅ Complete | For Verilog Simulation  |
+|3.   **GTKWave**    | ✅ Complete | For Waveform Viewing    |
+|4.   **Ngspice**    | ✅ Complete | For Circuit Simulation  |
+|5.   **Magic VLSI** | ✅ Complete | For Layout Design       |
+|6.   **OpenLane**   | ✅ Complete | For RTL-to-GDS flow     |
 ---
 
 🚀 **Environment Ready for VLSI Design Journey!**
