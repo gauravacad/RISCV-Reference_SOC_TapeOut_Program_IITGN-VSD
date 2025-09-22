@@ -49,6 +49,8 @@ We will start exploring Verilog designs, gain hands-on experience with Icarus Ve
 2. Use the **Testbench** with initial word `tb_<design_name>` to simulate the design.  
 3. Compile both using `iverilog`.  
    ```bash
-   iverilog -o sim.out mux2to1.v tb_mux2to1.v
-
+   $ iverilog good_mux.v tb_good_mux.v -o good_mux.out
+   $ ./good_mux.out
+   $ gtkwave tb_good_mux.vcd
+```
 <img width="1291" height="419" alt="Image" src="https://github.com/user-attachments/assets/3c297358-906e-4472-996f-209994646b4c" />
