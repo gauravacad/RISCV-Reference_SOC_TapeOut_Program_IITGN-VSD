@@ -72,29 +72,18 @@ To open the sky130_fd_sc_hd__tt_025C_1v80.lib file we need an editor like  `gedi
 - It revelas weather our silicon will work across all its corner on any variation.
 - Defines the operating conditions under which standard cells and circuits are characterized.
 ---
-## 🔹 Process (P)
-Fabrication variations cause transistors to behave differently.  
-- **TT** → Typical NMOS, Typical PMOS  
-- **SS** → Slow NMOS, Slow PMOS (worst-case delay, slowest chip)  
-- **FF** → Fast NMOS, Fast PMOS (best-case delay, fastest chip)  
-- **SF** → Slow NMOS, Fast PMOS  
-- **FS** → Fast NMOS, Slow PMOS  
----
-## 🔹 Voltage (V)
-Chips must operate at different supply voltages.  
-- Example (Sky130):  
-  - 1.60 V → Low supply  
-  - 1.80 V → Typical supply  
-  - 1.95 V → High supply  
-Higher VDD → faster but higher power.  
-Lower VDD → slower but saves power.  
----
-## 🔹 Temperature (T)
-Temperature impacts speed and leakage.  
-- Typical corners:  
-  - **-40°C** → Cold, fastest operation  
-  - **25°C** → Room temperature  
-  - **125°C** → Hot, slowest operation, high leakage  
+======================================
+     🔹 Extended PVT Corner Table
+======================================
+
+Corner   | Process                   | Voltage | Temp   | Use Case
+---------|---------------------------|---------|--------|-------------------------------
+SS       | Slow NMOS, Slow PMOS      | 1.60 V  | 125 °C | Worst-case delay (Setup check)
+TT       | Typical NMOS, Typical PMOS| 1.80 V  | 25 °C  | Nominal condition
+FF       | Fast NMOS, Fast PMOS      | 1.95 V  | -40 °C | Best-case delay (Hold check)
+SF       | Slow NMOS, Fast PMOS      | 1.80 V  | 25 °C  | Stress-test (imbalanced devices)
+FS       | Fast NMOS, Slow PMOS      | 1.80 V  | 25 °C  | Stress-test (imbalanced devices)
+
 ---
 ## 🔑 Why PVT matters?
 - ✅ **Setup timing check** → Worst-case (SS, 1.6V, 125°C)  
