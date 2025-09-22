@@ -89,17 +89,20 @@ FS       | Fast NMOS, Slow PMOS      | 1.80 V  | 25 °C  | Stress-test (imbalanc
 ---
 ## Hierarchical vs. Flattened Synthesis
 To study the diffence between these styles , lets take an example of a `multiple_modules.v`.
-The File consist of two submodule namd as `sub_module1` and `submodule2` and are called in top module named `multiple_modules`.
+The File consist of two submodule namd as `sub_module1` and `sub_module2` and are called in **top module** named `multiple_modules`.
+
 ```verilog
+#Sub_module1
 module sub_module2 (input a, input b, output y);
 	assign y = a | b;
 endmodule
 
+#Sub_module2
 module sub_module1 (input a, input b, output y);
 	assign y = a&b;
 endmodule
 
-
+#Top_module: multiple_modules
 module multiple_modules (input a, input b, input c , output y);
 	wire net1;
 	sub_module1 u1(.a(a),.b(b),.y(net1));  //net1 = a&b
