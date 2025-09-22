@@ -47,10 +47,10 @@ This naming convention clarifies which process, voltage, and temperature conditi
 
 ---
 ### 📘 What is a .lib in VLSI?
--A .lib file (Liberty file) is a timing and characterization library used in VLSI design.
--It contains the behavior, timing, power, and area information of standard cells (gates, flip-flops, latches, etc.) 
--Thses are used during logic synthesis, place-and-route, and static timing analysis (STA).
--**.lib** = `the dictionary of cells`
+- A .lib file (Liberty file) is a timing and characterization library used in VLSI design.
+- It contains the behavior, timing, power, and area information of standard cells (gates, flip-flops, latches, etc.) 
+- Thses are used during logic synthesis, place-and-route, and static timing analysis (STA).
+- **.lib** = `the dictionary of cells`
 ### Opening and Exploring the .lib File
 
 To open the sky130_fd_sc_hd__tt_025C_1v80.lib file:
