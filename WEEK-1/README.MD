@@ -85,6 +85,7 @@ $ gtkwave tb_good_mux.vcd
 <div align="center">
 <img width="528" height="290" alt="Image" src="https://github.com/user-attachments/assets/21527d38-4ee8-4c92-b893-aeace939e13a" />
 </div>
+
 ```verilog
 module good_mux (input i0, input i1, input sel, output reg y);
 always @ (*)
