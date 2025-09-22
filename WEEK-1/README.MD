@@ -30,8 +30,9 @@ We will start exploring Verilog designs, gain hands-on experience with Icarus Ve
 - In our repository all the files are under `verilog_files` folder.
 - Each file has its own testbench for observing the waveforms.
 
+<div align="center">
 <img width="767" height="308" alt="Image" src="https://github.com/user-attachments/assets/11d927c8-8776-4409-a8d2-2f871c7406f6" />
-
+</div>
 
 ### 🔹 What is a Testbench?
 - A **Testbench** is **not hardware**, but a simulation environment.  
