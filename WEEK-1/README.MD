@@ -44,8 +44,8 @@ We will start exploring Verilog designs, gain hands-on experience with Icarus Ve
 ---
 
 ### 🔹 Lab: Simulating a 2-to-1 Multiplexer
-This is shown under Day1-section two `Day1: Labs using iverilog and gtkwave`
-step 1: Clone the directory under `VLSI` folder
+This is shown under Day1-section two `Day1: Labs using iverilog and gtkwave <br>`
+🔹 Step 1: Clone the directory under `VLSI` folder
 
 ```bash
 $ mkdir VLSI
@@ -53,7 +53,7 @@ $ cd VLSI
 $ git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
 $ cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
 ```
-Step 2: We need to change the directory to `verilog_design` folder, Now.
+🔹 Step 2: We need to change the directory to `verilog_design` folder, Now.
 
 - We will use prebuilt **Design** (Verilog RTL) from the `verilog_design` folder.  
 - we will use the **Testbench** with initial word `tb_<design_name>` to simulate the design.  
@@ -62,13 +62,13 @@ Step 2: We need to change the directory to `verilog_design` folder, Now.
    ```bash
    $ iverilog good_mux.v tb_good_mux.v -o good_mux.out
    ```
-Step3: Running `.out` → simulation execution
+🔹 Step 3: Running `.out` → simulation execution
 - VCD generation → happens during simulation execution (only if $dumpfile + $dumpvars are present in the testbench).
    ```bash
    $ ./good_mux.out
    
    ```
-step 4: View the waveform using gtkwave viewer. 
+🔹 Step 4: View the waveform using gtkwave viewer. 
 - we need to append the signal in the viewer window here.
 ```bash
 $ gtkwave tb_good_mux.vcd
