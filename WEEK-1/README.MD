@@ -50,4 +50,5 @@ We will start exploring Verilog designs, gain hands-on experience with Icarus Ve
 3. Compile both using `iverilog`.  
    ```bash
    iverilog -o sim.out mux2to1.v tb_mux2to1.v
-  
+
+
