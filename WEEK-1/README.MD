@@ -44,7 +44,7 @@ We will start exploring Verilog designs, gain hands-on experience with Icarus Ve
 
 ---
 
-### 2. 🧪  Lab: Simulating a 2-to-1 Multiplexer
+### 2. 🧪 Lab: Simulating a 2-to-1 Multiplexer
 This is shown under Day1-section two `Day1: Labs using iverilog and gtkwave <br>`
 🔹 Step 1: Clone the directory under `VLSI` folder
 
