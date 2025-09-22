@@ -126,6 +126,7 @@ endmodule
 **Example:**
 ![Screenshot_2025-05-29_19-04-48](https://github.com/user-attachments/assets/91f0244a-2c41-42ea-be6f-468880c3af33)
 
+<img width="1055" height="576" alt="Image" src="https://github.com/user-attachments/assets/322138aa-a044-4604-a6d8-612fe24dc9c0" />
 
 ---
 
