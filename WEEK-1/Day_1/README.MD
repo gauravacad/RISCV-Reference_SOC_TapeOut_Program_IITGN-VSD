@@ -1,12 +1,6 @@
 Day 1: Introduction to Verilog RTL Design & Synthesis
 ---
-We will start exploring Verilog designs, gain hands-on experience with Icarus Verilog (iverilog) tool for open-source simulation, and then how to visualise the waveform i.e. timing simulation output using Gtkwave tool.
-
-Day 1: Introduction to Verilog RTL Design & Synthesis
----
-We will start exploring Verilog designs, gain hands-on experience with Icarus Verilog (iverilog) tool for open-source simulation, and then how to visualise the waveform i.e. timing simulation output using Gtkwave tool.
-
-
+We will start exploring Verilog designs, gain hands-on experience with Icarus Verilog (iverilog) tool for open-source simulatio
 
 ## Table of Content 
 - [🔍 Introduction to iverilog tool, design and test bench](#1--introduction-to-iverilog-tool-design-and-test-bench)
