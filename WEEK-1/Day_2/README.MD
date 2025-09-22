@@ -72,10 +72,7 @@ To open the sky130_fd_sc_hd__tt_025C_1v80.lib file we need an editor like  `gedi
 - It revelas weather our silicon will work across all its corner on any variation.
 - Defines the operating conditions under which standard cells and circuits are characterized.
 ---
-======================================
-     🔹 Extended PVT Corner Table
-======================================
-
+🔹 Extended PVT Corner Table
 Corner   | Process                   | Voltage | Temp   | Use Case
 ---------|---------------------------|---------|--------|-------------------------------
 SS       | Slow NMOS, Slow PMOS      | 1.60 V  | 125 °C | Worst-case delay (Setup check)
