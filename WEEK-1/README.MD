@@ -44,10 +44,10 @@ We will start exploring Verilog designs, gain hands-on experience with Icarus Ve
 ---
 
 ### 🔹 How it all works together
-1. This is shown under Day1-section two `Day1: Labs using iverilog and gtkwave`
-1. We will use prebuilt **Design** (Verilog RTL) from the `verilog_design` folder.  
-2. Use the **Testbench** with initial word `tb_<design_name>` to simulate the design.  
-3. Compile both using `iverilog` and view in `gtkwave`.  
+- This is shown under Day1-section two `Day1: Labs using iverilog and gtkwave`
+- We will use prebuilt **Design** (Verilog RTL) from the `verilog_design` folder.  
+- Use the **Testbench** with initial word `tb_<design_name>` to simulate the design.  
+- Compile both using `iverilog` and view in `gtkwave`.  
    ```bash
    $ iverilog good_mux.v tb_good_mux.v -o good_mux.out
    $ ./good_mux.out
