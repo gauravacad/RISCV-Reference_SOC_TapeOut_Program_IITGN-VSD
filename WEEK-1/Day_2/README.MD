@@ -69,8 +69,8 @@ To open the sky130_fd_sc_hd__tt_025C_1v80.lib file we need an editor like  `gedi
 # 📘 PVT Corners in VLSI
 
 **PVT = Process, Voltage, Temperature**  
-- It revelas weather our silicon will work across all te corner on any PVT variation.
-Defines the operating conditions under which standard cells and circuits are characterized.
+- It revelas weather our silicon will work across all its corner on any variation.
+- Defines the operating conditions under which standard cells and circuits are characterized.
 ---
 ## 🔹 Process (P)
 Fabrication variations cause transistors to behave differently.  
