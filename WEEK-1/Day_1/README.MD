@@ -10,7 +10,7 @@ We will start exploring Verilog designs, gain hands-on experience with Icarus Ve
 - [📖 Verilog Code Walkthrough & Analysis](#3--#verilog-code-walkthrough--analysis)
 - [🏗️ Introduction to Yosys & Gate Libraries](#4--introduction-to-yosys-&-gate-libraries)
 - [🔧 Synthesis Lab with Yosys](#5--synthesis-lab-with-yosys)
-- [🎯 Summary & Key Takeaways](#summary--key-takeaways)
+- [🎯 Summary & Key Takeaways](#6--summary--key-takeaways)
 
 ## 1. 🔍 **Introduction to iverilog tool, design and test bench**  
 
