@@ -96,6 +96,8 @@ endmodule
 
 ###  **How It Works**
 
+
+
 - **Inputs:** `i0`, `i1` (data), `sel` (select line)
 - **Output:** `y` (registered output)
 - **Logic:** If `sel` is 1, `y` gets `i1`; if `sel` is 0, `y` gets `i0`.
