@@ -152,11 +152,7 @@ VLSI/
     ├── yosys_run.sh
     └── README.md
 ```
-# add the .lib file in correct folder
-touch my_lib/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
-
-
-Let’s synthesize the `good_mux` design using Yosys!
+-Let’s synthesize the `good_mux` design using Yosys!
 
 ###  Step-by-Step Yosys Flow
 
