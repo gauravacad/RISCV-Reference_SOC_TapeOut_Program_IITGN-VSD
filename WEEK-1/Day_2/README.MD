@@ -1,7 +1,4 @@
-
-
-
-# Day 2: Timing Libraries, Synthesis Approaches, and Efficient Flip-Flop Coding
+# Day 2: Timing Libraries, Synthesis Approaches, and Efficient Flop Coding Styles
 
 Welcome to Day 2 of the RTL Workshop. This day covers three crucial topics:
 - Understanding the `.lib` timing library (sky130_fd_sc_hd__tt_025C_1v80.lib) used in open-source PDKs.
@@ -49,7 +46,11 @@ The SKY130 PDK is an open-source Process Design Kit based on SkyWater Technology
 This naming convention clarifies which process, voltage, and temperature conditions the library models.
 
 ---
-
+### 📘 What is a .lib in VLSI?
+-A .lib file (Liberty file) is a timing and characterization library used in VLSI design.
+-It contains the behavior, timing, power, and area information of standard cells (gates, flip-flops, latches, etc.) 
+-Thses are used during logic synthesis, place-and-route, and static timing analysis (STA).
+-**.lib** = `the dictionary of cells`
 ### Opening and Exploring the .lib File
 
 To open the sky130_fd_sc_hd__tt_025C_1v80.lib file:
