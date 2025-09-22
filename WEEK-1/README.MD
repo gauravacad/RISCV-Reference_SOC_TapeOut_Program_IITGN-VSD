@@ -7,7 +7,7 @@ We will start exploring Verilog designs, gain hands-on experience with Icarus Ve
 ## Table of Content 
 
 - [🔍 Introduction to iverilog tool, design and test bench](#1--introduction-to-iverilog-tool-design-and-test-bench)  
-- [🧪 Lab: Simulating a 2-to-1 Multiplexer](#2-lab-simulating-a-2-to-1-multiplexer)  
+- [🧪 Lab: Simulating a 2-to-1 Multiplexer](#2--simulating-a-2-to-1-multiplexer)  
 - [📖 Verilog Code Walkthrough & Analysis](#3-Verilog-code-analysis)  
 - [🏗️ Introduction to Yosys & Gate Libraries](#4--Introduction-to-yosys--gate-libraries)  
 - [🔧 Synthesis Lab with Yosys](#5--Synthesis-Lab-with-yosys)  
