@@ -53,17 +53,66 @@ This naming convention clarifies which process, voltage, and temperature conditi
 - **.lib** = `the dictionary of cells`
 ### Opening and Exploring the .lib File
 
-To open the sky130_fd_sc_hd__tt_025C_1v80.lib file we need an editor viz `gedit` or `vim` or `nano`.
+To open the sky130_fd_sc_hd__tt_025C_1v80.lib file we need an editor like  `gedit` or `vim` or `nano`.
 
 1. **Install a text editor:**
    ```shell
-   sudo apt install vim
+   $ sudo apt install --assume-yes gedit
    ```
-2. **Open the file:**
+2. Touch the `~./lib/` and **Open the sky130_fd_sc_hd__tt_025C_1v80.lib file:**
    ```shell
-   vim sky130_fd_sc_hd__tt_025C_1v80.lib
+   gedit sky  sky130_fd_sc_hd__tt_025C_1v80.lib
    ```
  ![Screenshot_2025-05-29_11-43-13](https://github.com/user-attachments/assets/0c31ddf8-8a95-44a4-acaa-e1c5f0518425)
+
+# 📘 PVT Corners in VLSI
+
+**PVT = Process, Voltage, Temperature**  
+Defines the operating conditions under which standard cells and circuits are characterized.
+
+---
+
+## 🔹 Process (P)
+Fabrication variations cause transistors to behave differently.  
+- **TT** → Typical NMOS, Typical PMOS  
+- **SS** → Slow NMOS, Slow PMOS (worst-case delay, slowest chip)  
+- **FF** → Fast NMOS, Fast PMOS (best-case delay, fastest chip)  
+- **SF** → Slow NMOS, Fast PMOS  
+- **FS** → Fast NMOS, Slow PMOS  
+
+---
+
+## 🔹 Voltage (V)
+Chips must operate at different supply voltages.  
+- Example (Sky130):  
+  - 1.60 V → Low supply  
+  - 1.80 V → Typical supply  
+  - 1.95 V → High supply  
+
+Higher VDD → faster but higher power.  
+Lower VDD → slower but saves power.  
+
+---
+
+## 🔹 Temperature (T)
+Temperature impacts speed and leakage.  
+- Typical corners:  
+  - **-40°C** → Cold, fastest operation  
+  - **25°C** → Room temperature  
+  - **125°C** → Hot, slowest operation, high leakage  
+
+---
+
+## 🔑 Why PVT matters?
+- ✅ **Setup timing check** → Worst-case (SS, 1.6V, 125°C)  
+- ✅ **Hold timing check** → Best-case (FF, 1.95V, -40°C)  
+- ✅ **Power analysis** → High voltage + high temp → worst leakage  
+
+---
+
+## 📘 Example `.lib` File
+
+
 
 
 ---
