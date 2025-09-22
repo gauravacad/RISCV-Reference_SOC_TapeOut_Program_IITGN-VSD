@@ -92,12 +92,12 @@ To study the diffence between these styles , lets take an example of a `multiple
 The File consist of two submodule namd as `sub_module1` and `sub_module2` and are called in **top module** named `multiple_modules`.
 
 ```verilog
-#Sub_module1
+#Sub_module1: Function as an AND logic 
 module sub_module2 (input a, input b, output y);
 	assign y = a | b;
 endmodule
 
-#Sub_module2
+#Sub_module2: Function as an OR logic
 module sub_module1 (input a, input b, output y);
 	assign y = a&b;
 endmodule
