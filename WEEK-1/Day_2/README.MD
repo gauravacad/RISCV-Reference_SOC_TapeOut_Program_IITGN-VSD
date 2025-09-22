@@ -68,10 +68,9 @@ To open the sky130_fd_sc_hd__tt_025C_1v80.lib file we need an editor like  `gedi
 # 📘 PVT Corners in VLSI
 
 **PVT = Process, Voltage, Temperature**  
+- It revelas weather our silicon will work across all te corner on any PVT variation.
 Defines the operating conditions under which standard cells and circuits are characterized.
-
 ---
-
 ## 🔹 Process (P)
 Fabrication variations cause transistors to behave differently.  
 - **TT** → Typical NMOS, Typical PMOS  
@@ -79,44 +78,28 @@ Fabrication variations cause transistors to behave differently.
 - **FF** → Fast NMOS, Fast PMOS (best-case delay, fastest chip)  
 - **SF** → Slow NMOS, Fast PMOS  
 - **FS** → Fast NMOS, Slow PMOS  
-
 ---
-
 ## 🔹 Voltage (V)
 Chips must operate at different supply voltages.  
 - Example (Sky130):  
   - 1.60 V → Low supply  
   - 1.80 V → Typical supply  
   - 1.95 V → High supply  
-
 Higher VDD → faster but higher power.  
 Lower VDD → slower but saves power.  
-
 ---
-
 ## 🔹 Temperature (T)
 Temperature impacts speed and leakage.  
 - Typical corners:  
   - **-40°C** → Cold, fastest operation  
   - **25°C** → Room temperature  
   - **125°C** → Hot, slowest operation, high leakage  
-
 ---
-
 ## 🔑 Why PVT matters?
 - ✅ **Setup timing check** → Worst-case (SS, 1.6V, 125°C)  
 - ✅ **Hold timing check** → Best-case (FF, 1.95V, -40°C)  
 - ✅ **Power analysis** → High voltage + high temp → worst leakage  
-
 ---
-
-## 📘 Example `.lib` File
-
-
-
-
----
-
 ## Hierarchical vs. Flattened Synthesis
 
 ### Hierarchical Synthesis
