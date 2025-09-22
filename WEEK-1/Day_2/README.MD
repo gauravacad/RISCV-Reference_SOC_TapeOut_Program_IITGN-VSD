@@ -42,7 +42,7 @@ The SKY130 PDK is an open-source Process Design Kit based on SkyWater Technology
 - **tt**: Typical process corner.
 - **025C**: Represents a temperature of 25°C, relevant for temperature-dependent performance.
 - **1v80**: Indicates a core voltage of 1.8V.
-
+- In nut shell `sky130_fd_sc_hd__<corner>_<temp>C_<vdd>.lib` 
 This naming convention clarifies which process, voltage, and temperature conditions the library models.
 
 ---
