@@ -12,15 +12,6 @@ We will start exploring Verilog designs, gain hands-on experience with Icarus Ve
 - [🔧 Synthesis Lab with Yosys](#5--synthesis-lab-with-yosys)
 - [🎯 Summary & Key Takeaways](#6--summary-&-key-takeways)
 
-### Table of Contents
-* [🔍 Introduction to iverilog tool, design and test bench](#introduction-to-iverilog-tool-design-and-test-bench)
-* [🧪 Lab: Simulating a 2-to-1 Multiplexer](#lab-simulating-a-2-to-1-multiplexer)
-* [📖 Verilog Code Walkthrough & Analysis](#verilog-code-walkthrough--analysis)
-* [🏗️ Introduction to Yosys & Gate Libraries](#introduction-to-yosys--gate-libraries)
-* [🔧 Synthesis Lab with Yosys](#synthesis-lab-with-yosys)
-* [🎯 Summary & Key Takeaways](#summary--key-takeaways)
-
-
 ## 1. 🔍 **Introduction to iverilog tool, design and test bench**  
 
 ### 🔹 What is Icarus Verilog tool (a.k.a. iverilog)?
@@ -85,7 +76,7 @@ $ gtkwave tb_good_mux.vcd
   <<img width="1291" height="419" alt="Image" src="https://github.com/user-attachments/assets/3c297358-906e-4472-996f-209994646b4c" />
 </div>
 
-## 3. 📖 Verilog Code Analysis
+## 3. 📖 Verilog Code Walkthrough & Analysis
 
 **The code for the multiplexer (`good_mux.v`):**
 
@@ -199,7 +190,7 @@ VLSI/
 
 ---
 
-## 6. 🎯 Summary & Key Takeways
+## 6. 🎯 Summary & Key Takeaways
 
 - I have learned about simulators, designs, and testbenches.
 - I ran your first Verilog simulation with iverilog and visualized waveforms.
