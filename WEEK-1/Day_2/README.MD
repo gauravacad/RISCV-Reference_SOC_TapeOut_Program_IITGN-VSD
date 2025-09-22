@@ -64,7 +64,7 @@ To open the sky130_fd_sc_hd__tt_025C_1v80.lib file we need an editor like  `gedi
    gedit sky  sky130_fd_sc_hd__tt_025C_1v80.lib
    ```
 
-<img width="1105" height="983" alt="Image" src="https://github.com/user-attachments/assets/7eda29a5-7e85-4e54-b3ae-271c1901fa9b" alt="Sky lib pvt" width="70%">
+<img width="50" height="50" alt="Image" src="https://github.com/user-attachments/assets/7eda29a5-7e85-4e54-b3ae-271c1901fa9b">
 
 # 📘 PVT Corners in VLSI
 
