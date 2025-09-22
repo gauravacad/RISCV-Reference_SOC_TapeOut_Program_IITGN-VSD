@@ -66,8 +66,8 @@ To open the sky130_fd_sc_hd__tt_025C_1v80.lib file we need an editor like  `gedi
 
 <img width="700" height="700" alt="Image" src="https://github.com/user-attachments/assets/7eda29a5-7e85-4e54-b3ae-271c1901fa9b">
 
-# 📘 PVT Corners in VLSI
-
+## 📘 PVT Corners in VLSI
+---
 **PVT = Process, Voltage, Temperature**  
 - It revelas weather our silicon will work across all its corner on any variation.
 - Defines the operating conditions under which standard cells and circuits are characterized.
