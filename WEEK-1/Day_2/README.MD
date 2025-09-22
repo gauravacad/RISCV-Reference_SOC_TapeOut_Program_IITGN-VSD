@@ -53,15 +53,15 @@ This naming convention clarifies which process, voltage, and temperature conditi
 - **.lib** = `the dictionary of cells`
 ### Opening and Exploring the .lib File
 
-To open the sky130_fd_sc_hd__tt_025C_1v80.lib file:
+To open the sky130_fd_sc_hd__tt_025C_1v80.lib file we need an editor viz `gedit` or `vim` or `nano`.
 
 1. **Install a text editor:**
    ```shell
-   sudo apt install gedit
+   sudo apt install vim
    ```
 2. **Open the file:**
    ```shell
-   gedit sky130_fd_sc_hd__tt_025C_1v80.lib
+   vim sky130_fd_sc_hd__tt_025C_1v80.lib
    ```
  ![Screenshot_2025-05-29_11-43-13](https://github.com/user-attachments/assets/0c31ddf8-8a95-44a4-acaa-e1c5f0518425)
 
