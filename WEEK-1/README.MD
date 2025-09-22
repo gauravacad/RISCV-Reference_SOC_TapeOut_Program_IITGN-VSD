@@ -10,7 +10,7 @@ We will start exploring Verilog designs, gain hands-on experience with Icarus Ve
 - [📖 Verilog Code Walkthrough & Analysis](#verilog-code-walkthrough--analysis)
 - [🏗️ Introduction to Yosys & Gate Libraries](#--introduction-to-yosys-&-gate-librariess)
 - [🔧 Synthesis Lab with Yosys](#5--Synthesis-Lab-with-yosys)
-- [🎯 Summary & Key Takeaways](#summary--key-takeaways)
+- [🎯 Summary & Key Takeaways](#6-summary)
 
 
 
