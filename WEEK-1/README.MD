@@ -7,7 +7,6 @@ We will start exploring Verilog designs, gain hands-on experience with Icarus Ve
 ## Table of Content 
 
 - 🔍 **Introduction to iverilog tool, design and test bench**  
-- ⚡ **Getting Started with Icarus Verilog (iverilog)**  
 - 🧪 **Lab: Simulating a 2-to-1 Multiplexer**  
 - 📖 **Verilog Code Walkthrough & Analysis**  
 - 🏗️ **Introduction to Yosys & Gate Libraries**  
@@ -44,7 +43,7 @@ We will start exploring Verilog designs, gain hands-on experience with Icarus Ve
 
 ---
 
-### 🔹 Lab: Simulating a 2-to-1 Multiplexer
+### 2. Lab: Simulating a 2-to-1 Multiplexer
 This is shown under Day1-section two `Day1: Labs using iverilog and gtkwave <br>`
 🔹 Step 1: Clone the directory under `VLSI` folder
 
@@ -78,7 +77,7 @@ $ gtkwave tb_good_mux.vcd
   <<img width="1291" height="419" alt="Image" src="https://github.com/user-attachments/assets/3c297358-906e-4472-996f-209994646b4c" />
 </div>
 
-## 4. Verilog Code Analysis
+## 3. Verilog Code Analysis
 
 **The code for the multiplexer (`good_mux.v`):**
 
@@ -107,7 +106,7 @@ endmodule
 - **Logic:** If `sel` is 1, `y` gets `i1`; if `sel` is 0, `y` gets `i0`.
 
 ---
-## 5. Introduction to Yosys & Gate Libraries
+## 4. Introduction to Yosys & Gate Libraries
 
 ###  What is Yosys?
 
@@ -134,7 +133,7 @@ A `.lib` file contains many versions of each gate (like AND, OR, NOT) with diffe
 
 ---
 
-## 6. Synthesis Lab with Yosys
+## 5. Synthesis Lab with Yosys
 - My directory structure 
 ```bash
 VLSI/
@@ -192,7 +191,7 @@ VLSI/
 
 ---
 
-## 7. Summary in Nutshel
+## 6. Summary & Key Takeways
 
 - I have learned about simulators, designs, and testbenches.
 - I ran your first Verilog simulation with iverilog and visualized waveforms.
