@@ -191,7 +191,7 @@ Let’s synthesize the `good_mux` design using Yosys!
     ```
 
 <div align="center">
-  <img width="1860" height="1032" alt="Image" src="https://github.com/user-attachments/assets/313769cb-eea9-4f2e-8560-e69c7b11b877" alt="Yosys Gate-level Schematic" width="70%">
+  <img width="1860" height="1032" alt="Image" src="https://github.com/user-attachments/assets/313769cb-eea9-4f2e-8560-e69c7b11b877" alt="Yosys Gate-level Schematic" width="50%">
 </div>
 
 ---
