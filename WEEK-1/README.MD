@@ -192,10 +192,10 @@ VLSI/
 
 ---
 
-## 7. Summary
+## 7. Summary in Nutshel
 
-- You learned about simulators, designs, and testbenches.
-- You ran your first Verilog simulation with iverilog and visualized waveforms.
-- You analyzed the 2-to-1 mux code.
-- You explored Yosys and learned why gate libraries have various flavors.
+- I have learned about simulators, designs, and testbenches.
+- I ran your first Verilog simulation with iverilog and visualized waveforms.
+- Also I have analyzed the 2-to-1 mux code.
+- Finally, I have explored `Yosys`, `iverilog`, `Gtkwave` and also , learned why gate libraries have different flavors (tt, slow and fast).
 
