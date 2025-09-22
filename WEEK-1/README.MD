@@ -73,4 +73,7 @@ $ cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
 ```bash
 $ gtkwave tb_good_mux.vcd
 ```
-<img width="1291" height="419" alt="Image" src="https://github.com/user-attachments/assets/3c297358-906e-4472-996f-209994646b4c" />
+<div align="center">
+  <<img width="1291" height="419" alt="Image" src="https://github.com/user-attachments/assets/3c297358-906e-4472-996f-209994646b4c" />
+</div>
+
