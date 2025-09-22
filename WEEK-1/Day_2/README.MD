@@ -88,7 +88,24 @@ FS       | Fast NMOS, Slow PMOS      | 1.80 V  | 25 °C  | Stress-test (imbalanc
 - ✅ **Power analysis** → High voltage + high temp → worst leakage  
 ---
 ## Hierarchical vs. Flattened Synthesis
+To study the diffence between these styles , lets take an example of a `multiple_modules.v`.
+The File looks like as below
+```verilog
+module sub_module2 (input a, input b, output y);
+	assign y = a | b;
+endmodule
 
+module sub_module1 (input a, input b, output y);
+	assign y = a&b;
+endmodule
+
+
+module multiple_modules (input a, input b, input c , output y);
+	wire net1;
+	sub_module1 u1(.a(a),.b(b),.y(net1));  //net1 = a&b
+	sub_module2 u2(.a(net1),.b(c),.y(y));  //y = net1|c ,ie y = a&b + c;
+endmodule
+```
 ### Hierarchical Synthesis
 
 - **Definition**: Retains the module hierarchy as defined in RTL, synthesizing modules separately.
