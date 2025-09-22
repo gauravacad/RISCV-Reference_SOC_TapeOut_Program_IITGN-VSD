@@ -196,5 +196,5 @@ VLSI/
 - I have learned about simulators, designs, and testbenches.
 - I ran your first Verilog simulation with iverilog and visualized waveforms.
 - Also I have analyzed the 2-to-1 mux code.
-- Finally, I have explored `Yosys`, `iverilog`, `Gtkwave` and also , learned why gate libraries have different flavors (tt, slow and fast).
+- Finally, I have explored `Yosys`, `iverilog`, `Gtkwave` and also , learned why gate libraries have different flavors.
 
