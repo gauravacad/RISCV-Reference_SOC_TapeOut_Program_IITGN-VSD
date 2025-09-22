@@ -78,3 +78,27 @@ $ gtkwave tb_good_mux.vcd
   <<img width="1291" height="419" alt="Image" src="https://github.com/user-attachments/assets/3c297358-906e-4472-996f-209994646b4c" />
 </div>
 
+## 4. Verilog Code Analysis
+
+**The code for the multiplexer (`good_mux.v`):**
+
+```verilog
+module good_mux (input i0, input i1, input sel, output reg y);
+always @ (*)
+begin
+    if(sel)
+        y <= i1;
+    else 
+        y <= i0;
+end
+endmodule
+```
+
+###  **How It Works**
+
+- **Inputs:** `i0`, `i1` (data), `sel` (select line)
+- **Output:** `y` (registered output)
+- **Logic:** If `sel` is 1, `y` gets `i1`; if `sel` is 0, `y` gets `i0`.
+
+---
+
