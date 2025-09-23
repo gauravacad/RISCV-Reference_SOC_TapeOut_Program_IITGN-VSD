@@ -337,8 +337,9 @@ This overview provides you with practical insights into timing libraries, synthe
 ### 2:1 MUX (general form) VS Nand with one input inverted 
 - There is a realtion that both these logic result in same output and can be replaced by either.
  
-## Optimisation : No-need of hardaware for `A×2^n` such multiply oeration 
+## Optimisation :special case "multiply with power of 2"
+- No-need of hardaware for `A×2^n` such multiply oeration 
 - For unsigned numbers, multiplying by 2 (or any power of 2) is equivalent to a left shift (<<) by that power. 
 - This operation is always valid as long as there is no overflow.
 
-
+<img width="362" height="382" alt="Image" src="https://github.com/user-attachments/assets/17301b59-fb34-4440-8c21-834077e0bd31" />
