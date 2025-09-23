@@ -360,4 +360,4 @@ Special case 3: A*9
 - At this time it doesnot lands under constant propogation logic.
 
 ## Summary
-This overview provides you with practical insights into timing libraries, synthesis strategies, and reliable coding practices for flip-flops. Continue experimenting with these concepts to deepen your understanding of RTL design and synthesis.
+This overview provides you with practical insights into timing libraries, synthesis strategies, and reliable coding practices for flip-flops. Continue experimenting with these concepts to deepen your understanding of RTL design, sequential synthesis, uses of tricks called optimisation. In next session Day-3 we will read state optimisation, Cloning and retiming. 
