@@ -343,6 +343,7 @@ $$
 
 ## Special Cases
 - **B = 0**  
+
 $$
 Y = \bar{S} \cdot A
 $$
