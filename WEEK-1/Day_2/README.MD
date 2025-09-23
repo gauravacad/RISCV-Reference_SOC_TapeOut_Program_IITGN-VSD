@@ -164,8 +164,9 @@ write_verilog multiple_modules_hier1.v
 - Loss of hierarchy complicates debugging and reporting.
 - Can increase memory usage and netlist complexity.
 
-**Example:**
+**Flatten switch with netlist as shown:**
 
+<img width="923" height="177" alt="Image" src="https://github.com/user-attachments/assets/bf28dd46-6221-4534-81b0-df4074de1028" />
 
 
 > **Important:** Hierarchical synthesis maintains sub-modules in the design, while flattening produces a netlist from the ground up.
