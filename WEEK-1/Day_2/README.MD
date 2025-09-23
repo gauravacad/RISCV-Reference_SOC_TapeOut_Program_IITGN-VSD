@@ -305,6 +305,10 @@ endmodule
    ```shell
    show
    ```
+## Output view after Netlist generation
+- Case-1: Diff_synchres
+- Case-2: Diff_asynchres
+- Case-3: Diff_synchres_asynchres
 
 ## ⚡ In short: What happens if you skip dfflibmap?
 
