@@ -283,7 +283,7 @@ endmodule
    ```
 2. Read Liberty library:
    ```shell
-   read_liberty -lib /address/to/your/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
+   read_liberty -lib ~./sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
    ```
 3. Read Verilog code:
    ```shell
@@ -295,19 +295,25 @@ endmodule
    ```
 5. Map flip-flops:
    ```shell
-   dfflibmap -liberty /address/to/your/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
+   dfflibmap -liberty ~./sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
    ```
 6. Technology mapping:
    ```shell
-   abc -liberty /address/to/your/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
+   abc -liberty ~./sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
    ```
 7. Visualize the gate-level netlist:
    ```shell
    show
    ```
-![Screenshot_2025-05-30_11-03-00](https://github.com/user-attachments/assets/fa8337df-e0ec-4b01-9b18-5910768e4421)
 
+## What happens if you skip dfflibmap?
 
+- Flip-flops remain generic ($dff, $adff, etc.).
+- abc (logic mapper) cannot map sequential elements, it only handles combinational logic.
+- Your final netlist will be incomplete / unmapped (not usable for P&R).
+⚡ In short:
+👉 dfflibmap = maps generic flip-flops → actual standard cell flip-flops (from .lib).
+👉 abc = maps combinational logic → actual standard cells.
 ---
 ## Summary
 This overview provides you with practical insights into timing libraries, synthesis strategies, and reliable coding practices for flip-flops. Continue experimenting with these concepts to deepen your understanding of RTL design and synthesis.
