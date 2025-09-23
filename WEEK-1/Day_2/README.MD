@@ -353,7 +353,11 @@ Special case 3: A*9
 - Y=a?(b?c:(c?a:0)):(!c) ≡ *(a XNOR c)*
 
 ## Optimisation : Interesting optimisations part2
--
+### Sequential constant propogation 
+- An example of Flipflop where assume input `d` tied to ground or logic 0.  
+- The output y is always a constant irrespective to clock and reset change.
+- That flop will be removed only iff flop output is constant value, if Q changes then:
+- At this time it doesnot lands under constant propogation logic.
 
 ## Summary
 This overview provides you with practical insights into timing libraries, synthesis strategies, and reliable coding practices for flip-flops. Continue experimenting with these concepts to deepen your understanding of RTL design and synthesis.
