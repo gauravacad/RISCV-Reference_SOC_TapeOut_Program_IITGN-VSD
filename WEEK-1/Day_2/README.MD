@@ -332,3 +332,29 @@ endmodule
 ---
 ## Summary
 This overview provides you with practical insights into timing libraries, synthesis strategies, and reliable coding practices for flip-flops. Continue experimenting with these concepts to deepen your understanding of RTL design and synthesis.
+
+Optimisation 
+## 2:1 MUX (general form)
+$$
+Y = S \cdot B + \bar{S} \cdot A
+$$
+
+---
+
+## Special Cases
+- **B = 0**  
+$$
+Y = \bar{S} \cdot A
+$$
+
+- **A = 0**  
+$$
+Y = S \cdot B
+$$
+
+---
+
+## NAND with one inverted input
+$$
+Y = \overline{A \cdot \bar{S}} = \bar{A} + S
+$$
