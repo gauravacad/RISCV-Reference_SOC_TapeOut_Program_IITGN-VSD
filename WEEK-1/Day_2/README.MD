@@ -306,9 +306,18 @@ endmodule
    show
    ```
 ## Output view after Netlist generation
-- Case-1: Diff_synchres
-- Case-2: Diff_asynchres
+- Case-1: Diff_asynchres
+
+<img width="774" height="376" alt="Image" src="https://github.com/user-attachments/assets/7576ee30-151a-488a-b0af-f9b161e8d3ec" />
+
+
+- Case-2: Diff_synchres
+
+<img width="797" height="361" alt="Image" src="https://github.com/user-attachments/assets/f93d5610-df0b-4a3f-8d26-805b232f8757" />
+
 - Case-3: Diff_synchres_asynchres
+
+
 
 ## ⚡ In short: What happens if you skip dfflibmap?
 
