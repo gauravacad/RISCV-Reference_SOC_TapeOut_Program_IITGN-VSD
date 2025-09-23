@@ -234,7 +234,7 @@ endmodule
 
 ### Asynchronous and Synchronous Reset D Flip-Flop
 - **Synchronous reset**: Takes effect only on the clock edge.
-- **Asynchronous reset:* Takes effect even when clock signal is low.
+- **Asynchronous reset:** Takes effect even when clock signal is low.
 
 ```verilog
 module dff_asyncres_syncres ( input clk , input async_reset , input sync_reset , input d , output reg q );
@@ -306,14 +306,13 @@ endmodule
    show
    ```
 
-## What happens if you skip dfflibmap?
+## ⚡ In short: What happens if you skip dfflibmap?
 
 - Flip-flops remain generic ($dff, $adff, etc.).
 - abc (logic mapper) cannot map sequential elements, it only handles combinational logic.
-- Your final netlist will be incomplete / unmapped (not usable for P&R).
-⚡ In short:
-👉 dfflibmap = maps generic flip-flops → actual standard cell flip-flops (from .lib).
-👉 abc = maps combinational logic → actual standard cells.
+- Your final netlist will be incomplete / unmapped (not usable for P&R). <br>
+👉 **dfflibmap** = maps generic flip-flops → actual standard cell flip-flops (from .lib).
+👉 **abc** = maps combinational logic → actual standard cells.
 ---
 ## Summary
 This overview provides you with practical insights into timing libraries, synthesis strategies, and reliable coding practices for flip-flops. Continue experimenting with these concepts to deepen your understanding of RTL design and synthesis.
