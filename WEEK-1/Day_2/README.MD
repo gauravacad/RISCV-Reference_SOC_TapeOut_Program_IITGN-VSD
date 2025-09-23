@@ -197,7 +197,14 @@ write_verilog multiple_modules_hier1.v
 
 Flip-flops are fundamental sequential elements in digital design, used to store binary data. Below are efficient coding styles for different reset/set behaviors.
 
+
+<img width="1343" height="530" alt="Image" src="https://github.com/user-attachments/assets/ac448c9b-aefb-4394-8473-58624512e56c" />
+
+
 ### Asynchronous Reset D Flip-Flop
+- Here irrespective of Clock the reset can play it role.
+- **Asynchronous reset**: Overrides clock, setting q to 0 immediately.
+- **Edge-triggered**: Captures input `d` on rising clock edge iff (if and only if) the reset is level low.
 
 ```verilog
 module dff_asyncres (input clk, input async_reset, input d, output reg q);
@@ -208,36 +215,39 @@ module dff_asyncres (input clk, input async_reset, input d, output reg q);
       q <= d;
 endmodule
 ```
-- **Asynchronous reset**: Overrides clock, setting q to 0 immediately.
-- **Edge-triggered**: Captures d on rising clock edge if reset is low.
 
-### Asynchronous Set D Flip-Flop
+### Synchronous Reset D Flip-Flop
+- **Synchronous reset**: Cannot overrides the Clock, it will set q to 1 only when clock and synch reset are High.
 
 ```verilog
-module dff_async_set (input clk, input async_set, input d, output reg q);
-  always @ (posedge clk, posedge async_set)
-    if (async_set)
+module dff_async_set (input clk, input sync_reset, input d, output reg q);
+  always @ (posedge clk)
+    if (sync_reset)
       q <= 1'b1;
     else
       q <= d;
 endmodule
 ```
-- **Asynchronous set**: Overrides clock, setting q to 1 immediately.
 
-### Synchronous Reset D Flip-Flop
+
+### Asynchronous and Synchronous Reset D Flip-Flop
+- **Synchronous reset**: Takes effect only on the clock edge.
+- **Asynchronous reset:* Takes effect even when clock signal is low.
 
 ```verilog
-module dff_syncres (input clk, input async_reset, input sync_reset, input d, output reg q);
-  always @ (posedge clk)
-    if (sync_reset)
-      q <= 1'b0;
-    else
-      q <= d;
+module dff_asyncres_syncres ( input clk , input async_reset , input sync_reset , input d , output reg q );
+always @ (posedge clk , posedge async_reset)
+begin
+	if(async_reset)
+		q <= 1'b0;
+	else if (sync_reset)
+		q <= 1'b0;
+	else	
+		q <= d;
+end
 endmodule
 ```
-- **Synchronous reset**: Takes effect only on the clock edge.
-
----
+--
 
 ## Simulation and Synthesis Workflow
 
