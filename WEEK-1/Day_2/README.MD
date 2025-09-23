@@ -269,8 +269,12 @@ endmodule
    ```
 <img width="939" height="422" alt="Image" src="https://github.com/user-attachments/assets/551a85a3-6e3a-44f6-8faf-321fc4d3ec8c" />
 
-4. **similarly we will run the other two cases and get the below output waveforms.**
+4. *Similarly we will run the other two cases and get the below output waveforms.**
+- Synchronous Reset D Flip-Flop
+<img width="921" height="357" alt="Image" src="https://github.com/user-attachments/assets/d7f99bc7-793f-4613-a30a-163b1a5a8cc0" />
 
+- Asynchronous and Synchronous Reset D Flip-Flop
+<img width="939" height="422" alt="Image" src="https://github.com/user-attachments/assets/3fd87f72-8236-4079-b99c-7a2fecd589b8" />
 ### Synthesis with Yosys
 
 1. Start Yosys:
