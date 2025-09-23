@@ -32,34 +32,6 @@ Constant propagation analyzes the design code to identify variables with constan
 - **Performance Improvement:** Faster execution and reduced delays.
 - **Resource Optimization:** Fewer gates or flip-flops required.
 
-## Introduction to optimisation 
-### Combinational Logic optimisation
-- Direct optimisation `constant propogation`
-- Boolean Logic optimisation 
-- Sequential Logic optimisation 
-- Basic 
-   --
-   1-*Sequential constant propogation* 
-   
-- Advanced 
-   -- 
-   1-*state opimisation* 
-   2-*Retiming* 
-   3-*Sequential Logic Cloning*  
-
- ### Cloning
-
-- Definition: Duplicating logic (usually combinational blocks) to reduce fan-out or critical path delay.
-- Purpose: Improves timing by parallelizing slow paths.
-#### Pros 
-- Reduces path delay without changing clocking.
-- Simple to implement for small blocks.
-Cons:
-- Increases area and power.
-- Can complicate routing if overused.
-
----
-
 ## 2. State Optimization
 
 State optimization refines finite state machines (FSMs) to improve efficiency in IC design. It reduces the number of states, optimizes encoding, and minimizes logic.
