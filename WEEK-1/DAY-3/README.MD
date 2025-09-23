@@ -98,7 +98,7 @@ opt_clean -purge
 ---
 
 ### Lab 2
-
+- Apply the consensus / absorption law Law which states: Y = A*Bar* * B+ A = A+B
 Verilog code:
 
 ```verilog
