@@ -146,7 +146,7 @@ write_verilog multiple_modules_hier1.v
 ```bash
 # hierarchy -check -top multiple_modules
 ```
-
+<img width="533" height="259" alt="Image" src="https://github.com/user-attachments/assets/9fb95794-0e23-4433-a0bd-a8b9db93bae7" />
 
 ### Flattened Synthesis
 
