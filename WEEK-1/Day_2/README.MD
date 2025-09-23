@@ -129,7 +129,7 @@ endmodule
 <img width="1055" height="576" alt="Image" src="https://github.com/user-attachments/assets/322138aa-a044-4604-a6d8-612fe24dc9c0" />
 
 # The Hierarchical process in Nutshell
-
+- Divide and Conquer Approach 
 ```bash
 # read Lib
 read_liberty -lib /home/vsdgp/vsdflow/VLSI/sky130RTLDesignAndSynthesisWorkshop/my_lib/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
