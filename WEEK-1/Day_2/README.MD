@@ -275,6 +275,8 @@ endmodule
 
 - Asynchronous and Synchronous Reset D Flip-Flop
 <img width="939" height="422" alt="Image" src="https://github.com/user-attachments/assets/3fd87f72-8236-4079-b99c-7a2fecd589b8" />
+
+
 ### Synthesis with Yosys
 
 1. Start Yosys:
