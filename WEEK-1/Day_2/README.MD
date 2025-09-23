@@ -313,11 +313,12 @@ endmodule
 
 - Case-2: Diff_syncres
 
-<img width="797" height="361" alt="Image" src="https://github.com/user-attachments/assets/f93d5610-df0b-4a3f-8d26-805b232f8757" />
+<img width="774" height="376" alt="Image" src="https://github.com/user-attachments/assets/f93d5610-df0b-4a3f-8d26-805b232f8757" />
 
 - Case-3: Diff_asyncres_syncres
 
-<img width="833" height="349" alt="Image" src="https://github.com/user-attachments/assets/fd8eca15-347f-46b5-a6db-9aa5e83226ea" />
+<img width="774" height="376" alt="Image" src="https://github.com/user-attachments/assets/fd8eca15-347f-46b5-a6db-9aa5e83226ea" />
+
 
 ## ⚡ In short: What happens if you skip dfflibmap?
 
