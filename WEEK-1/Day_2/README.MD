@@ -111,7 +111,7 @@ endmodule
 ```
 ### Hierarchical Synthesis
 
-- **Definition**: Retains the module hierarchy as defined in RTL, synthesizing modules separately.
+- **Definition**: Retains/Preserves the *module hierarchy* as defined in RTL, synthesizing modules separately.
 - **How it Works**: Tools like Yosys process each module independently, using commands such as `hierarchy` to analyze and set up the design structure.
 
 **Advantages:**
@@ -142,6 +142,11 @@ show multiple_modules
 #write the netlist
 write_verilog multiple_modules_hier1.v
 ```
+## Option 2: Additional Learning  Explicit hierarchy (recommended)
+```bash
+# hierarchy -check -top multiple_modules
+```
+
 
 ### Flattened Synthesis
 
