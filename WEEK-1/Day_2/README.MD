@@ -174,8 +174,8 @@ write_verilog multiple_modules_hier1.v
 
 - PMOS devices are weaker than NMOS (lower mobility, ~2–3× worse drive current).
 - In NOR gates, PMOS are in *series* → effective resistance adds up, making them slow and power-hungry.
-- In NAND gates, PMOS are in *parallel* → no stacking penalty, so pull-up is fast. So:
-- NAND gates scale better with more inputs.
+- In NAND gates, PMOS are in *parallel* → no stacking penalty, so pull-up is fast. 
+- Ttherefor, NAND gates scale better with more inputs.
 - NOR gates suffer badly as the number of inputs increases (series PMOS stack = sluggish pull-up).
 ---
 
