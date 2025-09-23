@@ -333,6 +333,12 @@ endmodule
 ## Summary
 This overview provides you with practical insights into timing libraries, synthesis strategies, and reliable coding practices for flip-flops. Continue experimenting with these concepts to deepen your understanding of RTL design and synthesis.
 
-## Optimisation 
+## Optimisation : Interesting optimisations part1
 ### 2:1 MUX (general form) VS Nand with one input inverted 
 - There is a realtion that both these logic result in same output and can be replaced by either.
+ 
+## Optimisation : No-need of hardaware for `A×2^n` such multiply oeration 
+- For unsigned numbers, multiplying by 2 (or any power of 2) is equivalent to a left shift (<<) by that power. 
+- This operation is always valid as long as there is no overflow.
+
+
