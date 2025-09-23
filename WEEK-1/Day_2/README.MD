@@ -207,7 +207,7 @@ Flip-flops are fundamental sequential elements in digital design, used to store 
 - **Edge-triggered**: Captures input `d` on rising clock edge iff (if and only if) the reset is level low.
 
 ```verilog
-module dff_asyncres (input clk, input async_reset, input d, output reg q);
+module dff_asyncres ( input clk , input async_reset , input sync_reset , input d , output reg q );
   always @ (posedge clk, posedge async_reset)
     if (async_reset)
       q <= 1'b0;
@@ -220,12 +220,14 @@ endmodule
 - **Synchronous reset**: Cannot overrides the Clock, it will set q to 1 only when clock and synch reset are High.
 
 ```verilog
-module dff_async_set (input clk, input sync_reset, input d, output reg q);
-  always @ (posedge clk)
-    if (sync_reset)
-      q <= 1'b1;
-    else
-      q <= d;
+module dff_syncres ( input clk , input async_reset , input sync_reset , input d , output reg q );
+always @ (posedge clk )
+begin
+	if (sync_reset)
+		q <= 1'b0;
+	else	
+		q <= d;
+end
 endmodule
 ```
 
