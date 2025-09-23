@@ -115,18 +115,20 @@ endmodule
 - **How it Works**: Tools like Yosys process each module independently, using commands such as `hierarchy` to analyze and set up the design structure.
 
 **Advantages:**
-- Faster synthesis time for large designs.
-- Improved debugging and analysis due to maintained module boundaries.
+- Speeds up synthesis for very large designs (incremental compilation).
+- Easier to debug and read (submodules are preserved).
+- Better reusability (submodules can be reused in other designs).
 - Modular approach, aiding integration with other tools.
 
 **Disadvantages:**
-- Cross-module optimizations are limited.
+- The tool cannot always optimize across module boundaries.
 - Reporting can require additional configuration.
+- Might lead to slightly larger area because some redundant logic inside submodules can’t be merged away.
 
 **Example:**
 <img width="1055" height="576" alt="Image" src="https://github.com/user-attachments/assets/322138aa-a044-4604-a6d8-612fe24dc9c0" />
 
-# The above process in Nutshell
+# The Hierarchical process in Nutshell
 
 ```bash
 # read Lib
@@ -168,6 +170,13 @@ write_verilog multiple_modules_hier1.v
 
 > **Important:** Hierarchical synthesis maintains sub-modules in the design, while flattening produces a netlist from the ground up.
 
+## ⚡ Why NAND is preferred (Stacking reason: A question asked during the class session)
+
+- PMOS devices are weaker than NMOS (lower mobility, ~2–3× worse drive current).
+- In NOR gates, PMOS are in *series* → effective resistance adds up, making them slow and power-hungry.
+- In NAND gates, PMOS are in *parallel* → no stacking penalty, so pull-up is fast. So:
+- NAND gates scale better with more inputs.
+- NOR gates suffer badly as the number of inputs increases (series PMOS stack = sluggish pull-up).
 ---
 
 ### Key Differences
