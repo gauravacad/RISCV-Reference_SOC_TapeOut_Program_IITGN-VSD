@@ -330,16 +330,30 @@ endmodule
 👉 **dfflibmap** = maps generic flip-flops → actual standard cell flip-flops (from .lib).<br>
 👉 **abc** = maps combinational logic → actual standard cells.
 ---
-## Summary
-This overview provides you with practical insights into timing libraries, synthesis strategies, and reliable coding practices for flip-flops. Continue experimenting with these concepts to deepen your understanding of RTL design and synthesis.
 
-## Optimisation : Interesting optimisations part1
-### 2:1 MUX (general form) VS Nand with one input inverted 
+## Special case 1:  Mux vs Nand logic
+- 2:1 MUX (general form) VS Nand with one input inverted 
 - There is a realtion that both these logic result in same output and can be replaced by either.
  
-## Optimisation :special case "multiply with power of 2"
+## Special case 2 "multiply with power of 2"
 - No-need of hardaware for `A×2^n` such multiply oeration 
 - For unsigned numbers, multiplying by 2 (or any power of 2) is equivalent to a left shift (<<) by that power. 
 - This operation is always valid as long as there is no overflow.
 
 <img width="362" height="382" alt="Image" src="https://github.com/user-attachments/assets/17301b59-fb34-4440-8c21-834077e0bd31" />
+
+Special case 3: A*9 
+- output = a << 3 + a
+
+## Optimisation : Interesting Optimisations part1
+### Case a
+- Y= (A AND B) NOR C  and Y1= Not C
+- So the statement “if A = 0 then Y1=Y”. **Awesome !!!**.
+### Case b Boolean logic optimisation : ternary operator case
+- Y=a?(b?c:(c?a:0)):(!c) ≡ *(a XNOR c)*
+
+## Optimisation : Interesting optimisations part2
+-
+
+## Summary
+This overview provides you with practical insights into timing libraries, synthesis strategies, and reliable coding practices for flip-flops. Continue experimenting with these concepts to deepen your understanding of RTL design and synthesis.
