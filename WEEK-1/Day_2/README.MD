@@ -267,8 +267,9 @@ endmodule
    ```shell
    gtkwave tb_dff_asyncres.vcd
    ```
-![Screenshot_2025-05-30_10-45-13](https://github.com/user-attachments/assets/1176581e-fd6c-4b71-8af5-5d7d5f6dbcda)
+<img width="939" height="422" alt="Image" src="https://github.com/user-attachments/assets/551a85a3-6e3a-44f6-8faf-321fc4d3ec8c" />
 
+4. **similarly we will run the other two cases and get the below output waveforms.**
 
 ### Synthesis with Yosys
 
