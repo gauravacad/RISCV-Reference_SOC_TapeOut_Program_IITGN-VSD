@@ -311,7 +311,7 @@ endmodule
 - Flip-flops remain generic ($dff, $adff, etc.).
 - abc (logic mapper) cannot map sequential elements, it only handles combinational logic.
 - Your final netlist will be incomplete / unmapped (not usable for P&R). <br>
-👉 **dfflibmap** = maps generic flip-flops → actual standard cell flip-flops (from .lib).
+👉 **dfflibmap** = maps generic flip-flops → actual standard cell flip-flops (from .lib).<br>
 👉 **abc** = maps combinational logic → actual standard cells.
 ---
 ## Summary
