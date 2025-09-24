@@ -163,12 +163,7 @@ _Follow the standard Yosys synthesis flow._
 
 ternerary oerator 
 
-<img width="572" height="265" alt="Image" src="https://github.com/user-attachments/assets/92e2872f-42c0-40f1-b6ac-62cb6c8334ff" />
-
 <img width="570" height="340" alt="Image" src="https://github.com/user-attachments/assets/6082e03a-3ac9-45f7-9277-f99a97afd914" />
-
-
-
 
 ---
 
@@ -180,8 +175,11 @@ Use this command (adjust paths as needed):
 ```shell
 iverilog /path/to/primitives.v /path/to/sky130_fd_sc_hd.v ternary_operator_mux.v testbench.v
 ```
+- RTL simuation waveform 
 
 <img width="942" height="359" alt="Image" src="https://github.com/user-attachments/assets/b2a695aa-c884-40e3-b7d8-38ddbeabb7ba" />
+---
+- GLS simulation waveform 
 
 <img width="938" height="485" alt="Image" src="https://github.com/user-attachments/assets/0a55bf60-8a56-4017-8696-25ee9b29f8cf" />
 
