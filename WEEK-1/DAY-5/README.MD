@@ -47,11 +47,16 @@ end
 #### Nested If-Else
 
 ```verilog
-if (condition1) begin
+if (condition1)
+begin
     // Code for condition1 true
-end else if (condition2) begin
+end 
+else if (condition2) 
+begin
     // Code for condition2 true
-end else begin
+end 
+else 
+begin
     // Code if no conditions are true
 end
 ```
