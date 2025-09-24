@@ -217,15 +217,11 @@ always @ (*) begin
 end
 ```
 
-bad mux
+- Bad Mux Yosys 
 
 <img width="572" height="282" alt="Image" src="https://github.com/user-attachments/assets/b69f8801-a49f-489c-a00f-13ae573ab07f" />
 
 <img width="935" height="360" alt="Image" src="https://github.com/user-attachments/assets/3a5bb104-ada3-4760-bd1e-eadd195cd8a5" />
-
-<img width="937" height="456" alt="Image" src="https://github.com/user-attachments/assets/8af8858e-d62b-4c63-80e4-1f8dbe965e61" />
-
-
 
 ---
 
