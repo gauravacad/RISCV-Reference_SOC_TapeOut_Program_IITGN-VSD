@@ -146,7 +146,7 @@ Non-blocking is a two-step process i.e. a) Evaluate the RHS expression at the be
 ---
 
 - Flow chart 
-<img width="1024" height="1536" alt="Image" src="https://github.com/user-attachments/assets/58b41b4b-0177-4bdc-a6b6-f2901a6fbb0d" />
+<img width="730" height="832" alt="Image" src="https://github.com/user-attachments/assets/58b41b4b-0177-4bdc-a6b6-f2901a6fbb0d" />
 
 ---
 ### Lab 1: Ternary Operator MUX
