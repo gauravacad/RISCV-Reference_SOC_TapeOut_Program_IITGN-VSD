@@ -55,8 +55,6 @@ end else begin
     // Code if no conditions are true
 end
 ```
-> [!Tip]
-> Incomplete "If-Else" will leads to latches. So, always complete your if-else sttement properly
 ---
 
 ## 2. Inferred Latches in Verilog
@@ -79,7 +77,7 @@ endmodule
 
 **Problem**: When `sel` is 0, `y` is not assigned, so a latch is inferred.
 
-#### Solution: Add Else or Default Case
+#### Solution `code with default` Yes!!: Add Else for the incomplete `if` and Similarly, use Default Case for `Case Statement`
 
 ```verilog
 module ex (
@@ -94,7 +92,8 @@ module ex (
     end
 endmodule
 ```
-
+> [!Tip]
+> Incomplete "If-Else" will leads to latches. So, always complete your if-else statement specially when the design has intended combinatinal logics.
 ---
 
 ## 3. Labs for If-Else and Case Statements
