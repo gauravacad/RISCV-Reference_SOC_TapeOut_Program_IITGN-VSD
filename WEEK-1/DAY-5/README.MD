@@ -29,11 +29,13 @@ Welcome to Day 5 of the RTL workshop! Today, we will cover optimization in Veril
 ---
 
 ## 1. If-Else Statements in Verilog
-
-**If-else statements** are used for conditional execution in behavioral modeling, typically within procedural blocks (`always`, `initial`, tasks, or functions).
+- Mainly used to create priority  logic.
+- **If-else statements** are used for conditional execution in behavioral modeling, typically within procedural blocks (`always`, `initial`, tasks, or functions).
+- **condition**: An expression evaluating to true (non-zero) or false (zero).
+- **begin ... end**: must be used for multiple statements. Omit if only 1 statement is present.
+- The `else` part is optional.
 
 ### Syntax
-
 ```verilog
 if (condition) begin
     // Code block executed if condition is true
@@ -41,11 +43,7 @@ end else begin
     // Code block executed if condition is false
 end
 ```
-
-- **condition**: An expression evaluating to true (non-zero) or false (zero).
-- **begin ... end**: Used to group multiple statements. Omit if only one statement is present.
-- The `else` part is optional.
-
+---
 #### Nested If-Else
 
 ```verilog
@@ -57,7 +55,8 @@ end else begin
     // Code if no conditions are true
 end
 ```
-
+[!Dangerous]
+- Incomplete "If-Else" will leads to latches. So, always complete your if-else sttement properly
 ---
 
 ## 2. Inferred Latches in Verilog
