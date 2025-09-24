@@ -38,6 +38,7 @@ Here’s is the practical, compact guide to Gate-Level Simulation (GLS) so, we c
 
 - Unlike RTL simulations, which typically operate in a zero-delay environment, GLS can incorporate timing delays. 
 - These delays can be specified using *Standard Delay Format* (`SDF`) files, allowing for more accurate modeling of real-world behavior.
+- **Low-Level Design Aberrations:**: It consider individual gate interactions, timing delays, and other low-level design attributes.
 
 ### Significance of performing GLS?
 
@@ -45,6 +46,7 @@ Here’s is the practical, compact guide to Gate-Level Simulation (GLS) so, we c
 - **Timing Verification**: Simulates with realistic delays (from `SDF`:*Standard Delay Format* files), allowing you to check for timing violations (e.g., glitches, hold violations, non-reproducible metastability maskings,     and timing errors, etc. ).
 - **Testability**: Confirms that scan chains and other test features work post-synthesis.
 - **Exercise gated clocks**, cell libraries, resets, and power pins as they exist in silicon.
+
 
 ### When is GLS Performed?
 
@@ -67,8 +69,12 @@ As they possess detailed representation of gates and their interactions.
 - - Need longer simulation times and higher memory requirements.
 - Debugging issues are challenging due to potential initialization problems and X propagation (unknown states).
 
-### Resource Requirements
 
+## Requirement of Files
+- Need verilog models of standard cell library 
+- Netlist of the design 
+- Test bench of design
+- Vcd File 
 **Caution:** Make sure timescale in `SDF` and `HDL` **match** (or adjust units).
 ---
 
