@@ -135,6 +135,12 @@ Non-blocking is a two-step process i.e. a) Evaluate the RHS expression at the be
 
 ## 4. Labs
 
+✅ To start with let's Summarise GLS Flow
+
+- Design verilog + Testbench -> Yosys + Standard `sky130_fd_sc_hd__tt_025C_1v80.lib`  → Netlist .v file
+- iverilog + Design netlist +  `primitives` + `sky130_fd_sc_hd.v` → Design .vcd file
+- gtkwave .vcd file to check the mismatch or matched RTL vs GLS.
+
 <img width="1776" height="832" alt="Image" src="https://github.com/user-attachments/assets/a9d31a4f-63a8-411b-84fd-e9e33f2d071d" />
 
 ### Lab 1: Ternary Operator MUX
