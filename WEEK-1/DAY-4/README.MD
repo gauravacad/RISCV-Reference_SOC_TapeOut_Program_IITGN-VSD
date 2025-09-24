@@ -81,7 +81,9 @@ As they possess detailed representation of gates and their interactions.
 ## 2. Synthesis-Simulation Mismatch
 
 A **synthesis-simulation mismatch** occurs when the simulation results of RTL (pre-synthesis) do not match simulation results of the gate-level netlist (post-synthesis) or hardware. Reasons include:
-
+- **Missing Sentivity List** e.g. `Bad_mux` case in Lab 1.
+- **Blocking and Non-Blocking Assignment** `ternary_mux` case as in Lab2
+- **Non Standard Verilog Coding**
 - **Non-synthesizable constructs**: Use of delays, initial blocks, or other code not supported by synthesis.
 - **Incomplete or ambiguous coding**: E.g., missing `else` clauses, improper sensitivity lists.
 - **Tool interpretation differences**: Simulation and synthesis tools may interpret ambiguous RTL differently.
@@ -95,17 +97,22 @@ A **synthesis-simulation mismatch** occurs when the simulation results of RTL (p
 Verilog offers two types of procedural assignments:
 
 ### 3.1 Blocking Statements (`=`)
-
+A one-step process i.e evaluate the RHS of the expression and update the LHS without any delay.
 - **Syntax:** `=`
-- **Execution:** Sequential, executes immediately.
+- **Execution:** Sequential, executes in the order it is written.
+- That is first statement is evaluated before the second statement.
+- use must be inside `always` block.
 - **Suitable for:** Combinational logic (e.g., `always @(*)`).
 - **Example:**  
   ```verilog
   always @(*) y = a & b;
   ```
+> [!TIP]
+>  Blocking assignment always suffers from the problem of Race condition when the assignment happens to it from two processes concurrently.
+>  Hence, Avoid the blocking statement usage unless you are pretty sure!!
 
 ### 3.2 Non-Blocking Statements (`<=`)
-
+Non-blocking is a two-step process i.e. a) Evaluate the RHS expression at the beginning of the time step and. b) Update the LHS at the end of the time step.
 - **Syntax:** `<=`
 - **Execution:** Scheduled, executes concurrently at the end of the time step.
 - **Suitable for:** Sequential logic (e.g., `always @(posedge clk)`).
