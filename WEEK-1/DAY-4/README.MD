@@ -154,7 +154,7 @@ endmodule
 ```
 - **Function:** `y = i1` if `sel = 1`; else `y = i0`.
 
-![lab1](https://github.com/user-attachments/assets/3f5eb05a-1861-4bb8-940c-6ff9f2af87fb)
+
 
 ---
 
@@ -163,7 +163,14 @@ endmodule
 Synthesize the above MUX using Yosys.  
 _Follow the standard Yosys synthesis flow._
 
-![lab2](https://github.com/user-attachments/assets/7a0cdc7c-cbbd-4943-bd3d-130a0d66b9b1)
+ternerary oerator 
+
+<img width="572" height="265" alt="Image" src="https://github.com/user-attachments/assets/92e2872f-42c0-40f1-b6ac-62cb6c8334ff" />
+
+<img width="570" height="340" alt="Image" src="https://github.com/user-attachments/assets/6082e03a-3ac9-45f7-9277-f99a97afd914" />
+
+
+
 
 ---
 
@@ -176,7 +183,9 @@ Use this command (adjust paths as needed):
 iverilog /path/to/primitives.v /path/to/sky130_fd_sc_hd.v ternary_operator_mux.v testbench.v
 ```
 
-![lab3](https://github.com/user-attachments/assets/9acf45b3-2e42-4ac1-88ae-b4a494cc8d87)
+<img width="942" height="359" alt="Image" src="https://github.com/user-attachments/assets/b2a695aa-c884-40e3-b7d8-38ddbeabb7ba" />
+
+<img width="938" height="485" alt="Image" src="https://github.com/user-attachments/assets/0a55bf60-8a56-4017-8696-25ee9b29f8cf" />
 
 ---
 
@@ -209,7 +218,15 @@ always @ (*) begin
 end
 ```
 
-![lab4](https://github.com/user-attachments/assets/4c2ede06-0605-4ff0-99cb-fc89844b89e4)
+bad mux
+
+<img width="572" height="282" alt="Image" src="https://github.com/user-attachments/assets/b69f8801-a49f-489c-a00f-13ae573ab07f" />
+
+<img width="935" height="360" alt="Image" src="https://github.com/user-attachments/assets/3a5bb104-ada3-4760-bd1e-eadd195cd8a5" />
+
+<img width="937" height="456" alt="Image" src="https://github.com/user-attachments/assets/8af8858e-d62b-4c63-80e4-1f8dbe965e61" />
+
+
 
 ---
 
@@ -218,11 +235,14 @@ end
 Perform GLS on the `bad_mux`.  
 Expect simulation mismatches or warnings due to above issues.
 
-![lab5](https://github.com/user-attachments/assets/2e698404-27b5-4c4a-a811-41b5fc13db77)
+<img width="937" height="456" alt="Image" src="https://github.com/user-attachments/assets/6bc5995b-f87e-44d5-a9f3-249b12d8d9d0" />
 
 ---
 
 ### Lab 6: Blocking Assignment Caveat
+
+
+<img width="585" height="339" alt="Image" src="https://github.com/user-attachments/assets/f60c5656-3e81-414f-9449-af86f5b3f20f" />
 
 Verilog code:
 
@@ -235,6 +255,7 @@ module blocking_caveat (input a, input b, input c, output reg d);
   end
 endmodule
 ```
+<img width="574" height="267" alt="Image" src="https://github.com/user-attachments/assets/9425efc4-264b-49ab-aedb-14980bbcab67" />
 
 #### What’s wrong?
 - The order of assignments causes `d` to use the old value of `x`—not the newly computed value.
@@ -248,7 +269,11 @@ always @ (*) begin
 end
 ```
 
-![lab6](https://github.com/user-attachments/assets/42cac594-0008-4c7b-b415-43e6565b6081)
+
+
+<img width="936" height="379" alt="Image" src="https://github.com/user-attachments/assets/0afde0be-3b7e-4998-9f5c-b508d90bf6cc" />
+
+
 
 ---
 
@@ -256,7 +281,12 @@ end
 
 Synthesize the corrected version of the module and observe the results.
 
-![lab7](https://github.com/user-attachments/assets/833bfacc-3b76-40fa-814c-47f0d783a6e0)
+<img width="920" height="489" alt="Image" src="https://github.com/user-attachments/assets/1a7508d3-8d94-49d0-b8ff-e2a3af32a8a5" />
+
+
+
+
+
 
 ---
 
