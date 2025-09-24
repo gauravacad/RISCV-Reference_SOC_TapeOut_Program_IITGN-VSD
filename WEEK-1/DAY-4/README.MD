@@ -114,7 +114,7 @@ A one-step process i.e evaluate the RHS of the expression and update the LHS wit
 ### 3.2 Non-Blocking Statements (`<=`)
 Non-blocking is a two-step process i.e. a) Evaluate the RHS expression at the beginning of the time step and. b) Update the LHS at the end of the time step.
 - **Syntax:** `<=`
-- **Execution:** Scheduled, executes concurrently at the end of the time step.
+- **Execution:** Scheduled, executes concurrently or parallelly at the end of the time step.
 - **Suitable for:** Sequential logic (e.g., `always @(posedge clk)`).
 - **Example:**  
   ```verilog
@@ -268,11 +268,7 @@ always @ (*) begin
 end
 ```
 
-
-
 <img width="936" height="379" alt="Image" src="https://github.com/user-attachments/assets/0afde0be-3b7e-4998-9f5c-b508d90bf6cc" />
-
-
 
 ---
 
@@ -281,11 +277,6 @@ end
 Synthesize the corrected version of the module and observe the results.
 
 <img width="920" height="489" alt="Image" src="https://github.com/user-attachments/assets/1a7508d3-8d94-49d0-b8ff-e2a3af32a8a5" />
-
-
-
-
-
 
 ---
 
