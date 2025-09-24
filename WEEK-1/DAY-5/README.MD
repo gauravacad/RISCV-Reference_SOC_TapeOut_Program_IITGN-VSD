@@ -55,7 +55,7 @@ end else begin
     // Code if no conditions are true
 end
 ```
-> [!Dangerous]
+> [!Tip]
 > Incomplete "If-Else" will leads to latches. So, always complete your if-else sttement properly
 ---
 
