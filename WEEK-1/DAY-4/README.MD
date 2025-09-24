@@ -241,7 +241,7 @@ Expect simulation mismatches or warnings due to above issues.
 ### Lab 6: Blocking Assignment Caveat
 
 
-<img width="585" height="339" alt="Image" src="https://github.com/user-attachments/assets/f60c5656-3e81-414f-9449-af86f5b3f20f" />
+<img width="539" height="183" alt="Image" src="https://github.com/user-attachments/assets/f253af9a-e10a-4460-b4dd-5834d9456100" />
 
 Verilog code:
 
