@@ -128,6 +128,8 @@ Verilog offers two types of procedural assignments:
 
 ## 4. Labs
 
+<img width="1776" height="832" alt="Image" src="https://github.com/user-attachments/assets/a9d31a4f-63a8-411b-84fd-e9e33f2d071d" />
+
 ### Lab 1: Ternary Operator MUX
 
 Verilog code for a simple 2:1 multiplexer using a ternary operator:
