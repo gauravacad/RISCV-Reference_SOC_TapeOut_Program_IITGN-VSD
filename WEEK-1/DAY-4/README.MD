@@ -143,6 +143,12 @@ Non-blocking is a two-step process i.e. a) Evaluate the RHS expression at the be
 
 <img width="1776" height="832" alt="Image" src="https://github.com/user-attachments/assets/a9d31a4f-63a8-411b-84fd-e9e33f2d071d" />
 
+---
+
+- Flow chart 
+<img width="1024" height="1536" alt="Image" src="https://github.com/user-attachments/assets/58b41b4b-0177-4bdc-a6b6-f2901a6fbb0d" />
+
+---
 ### Lab 1: Ternary Operator MUX
 
 Verilog code for a simple 2:1 multiplexer using a ternary operator:
