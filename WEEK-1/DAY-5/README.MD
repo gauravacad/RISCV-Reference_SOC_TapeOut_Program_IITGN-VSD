@@ -55,8 +55,8 @@ end else begin
     // Code if no conditions are true
 end
 ```
-[!Dangerous]
-- Incomplete "If-Else" will leads to latches. So, always complete your if-else sttement properly
+> [!Dangerous]
+> Incomplete "If-Else" will leads to latches. So, always complete your if-else sttement properly
 ---
 
 ## 2. Inferred Latches in Verilog
