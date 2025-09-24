@@ -154,8 +154,6 @@ endmodule
 ```
 - **Function:** `y = i1` if `sel = 1`; else `y = i0`.
 
-
-
 ---
 
 ### Lab 2: Synthesis Using Yosys
