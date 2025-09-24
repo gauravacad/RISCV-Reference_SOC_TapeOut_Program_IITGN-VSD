@@ -178,7 +178,10 @@ iverilog /path/to/primitives.v /path/to/sky130_fd_sc_hd.v ternary_operator_mux.v
 - RTL simuation waveform 
 
 <img width="942" height="359" alt="Image" src="https://github.com/user-attachments/assets/b2a695aa-c884-40e3-b7d8-38ddbeabb7ba" />
+
 ---
+
+
 - GLS simulation waveform 
 
 <img width="938" height="485" alt="Image" src="https://github.com/user-attachments/assets/0a55bf60-8a56-4017-8696-25ee9b29f8cf" />
