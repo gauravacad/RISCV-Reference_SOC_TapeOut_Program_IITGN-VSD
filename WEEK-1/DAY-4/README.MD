@@ -274,7 +274,8 @@ end
 
 ### Lab 7: Synthesis of the Blocking Caveat Module
 
-Synthesize the corrected version of the module and observe the results.
+Synthesize the module and observe the results difference between RTL and GLS clearly. We understand why blocking statement are used with utmost care.
+
 
 <img width="920" height="489" alt="Image" src="https://github.com/user-attachments/assets/1a7508d3-8d94-49d0-b8ff-e2a3af32a8a5" />
 
