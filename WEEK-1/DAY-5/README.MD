@@ -55,7 +55,7 @@ else if (condition2)
 begin
     // Code for condition2 true
 end 
-else 
+else  //Default condition V. Imp. 
 begin
     // Code if no conditions are true
 end
