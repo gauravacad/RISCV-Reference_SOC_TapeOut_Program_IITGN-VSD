@@ -97,10 +97,11 @@ module ex (
     end
 endmodule
 ```
-> [!Tip]
+> [!Tip 1] Ways latches are accidentally inferred: 
 > Incomplete "If-Else" will leads to latches. So, always complete your if-else statement specially when the design has intended combinatinal logics.
-> Ways latches are accidentally inferred: Signal(s) missing for the sensitivity list (this is why @* should be used):
+> [!Tip 2] Ways latches are accidentally inferred: 
 > Partial assignemnts of outputs in case statement when default case is even present .
+> Signal(s) missing for the sensitivity list (this is why @* should be used):
 ---                 
 
 ## 3. Labs for If-Else and Case Statements
