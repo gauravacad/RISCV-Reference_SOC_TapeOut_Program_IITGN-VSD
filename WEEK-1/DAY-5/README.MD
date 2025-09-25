@@ -101,6 +101,9 @@ endmodule
 > Incomplete "If-Else" will leads to latches. So, always complete your if-else statement specially when the design has intended combinatinal logics.
 
 > [!Tip] 
+> Partial assignemnts of outputs in case statement when default case is even present. Signal(s) missing for the sensitivity list (this is why @* should be used).
+
+> [!Tip] 3
 > Partial assignemnts of outputs in case statement when default case is even present. Signal(s) missing for the sensitivity list (this is why @* should be used):
 ---                 
 
