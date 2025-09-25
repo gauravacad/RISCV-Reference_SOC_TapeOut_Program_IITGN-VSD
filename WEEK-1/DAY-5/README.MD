@@ -103,8 +103,8 @@ endmodule
 > [!Tip] 
 > Partial assignemnts of outputs in case statement when default case is even present. Signal(s) missing for the sensitivity list (this is why @* should be used).
 
-> [!Tip] 3
-> Partial assignemnts of outputs in case statement when default case is even present. Signal(s) missing for the sensitivity list (this is why @* should be used):
+> [!Tip] 
+> We should not have overlapping cases. It will also infer accidential Latches. (e.g. 2'b1?) leads to **10** and **11** as true consditions.
 ---                 
 
 ## 3. Labs for If-Else and Case Statements
