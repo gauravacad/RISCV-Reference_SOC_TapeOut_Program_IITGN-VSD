@@ -374,9 +374,10 @@ endmodule
 ---
 ### Ciruit diagram study 
 
-<img width="1028" height="543" alt="Image" src="https://github.com/user-attachments/assets/dd5d3b87-f396-44c6-8a86-ddf8c895ccc1" />
+<img width="531" height="343" alt="Image" src="https://github.com/user-attachments/assets/b3ebd32a-4118-442a-aa43-2bc2752e2aaf" />
 
 ---
+
 <img width="864" height="541" alt="Image" src="https://github.com/user-attachments/assets/b7eb9050-1801-4cbf-99e8-48aed8be4836" />
 
 
@@ -400,7 +401,7 @@ end
 endmodule
 ```
 
-<img width="531" height="343" alt="Image" src="https://github.com/user-attachments/assets/b3ebd32a-4118-442a-aa43-2bc2752e2aaf" />
+<img width="1028" height="543" alt="Image" src="https://github.com/user-attachments/assets/dd5d3b87-f396-44c6-8a86-ddf8c895ccc1" />
 
 ---
 
@@ -430,7 +431,8 @@ always @(*) begin
 end
 endmodule
 ```
-![demux-case](https://github.com/user-attachments/assets/1836a255-e260-47de-9a8e-45899b19fc03)
+
+<img width="952" height="400" alt="Image" src="https://github.com/user-attachments/assets/45775b37-b187-4b4d-a60f-9281be228f05" />
 
 ---
 
@@ -455,7 +457,10 @@ always @(*) begin
 end
 endmodule
 ```
-![demux-generate](https://github.com/user-attachments/assets/a5a2c004-a16f-44cd-8d80-c23f1c932e6c)
+
+<img width="952" height="400" alt="Image" src="https://github.com/user-attachments/assets/45775b37-b187-4b4d-a60f-9281be228f05" />
+
+<img width="785" height="677" alt="Image" src="https://github.com/user-attachments/assets/e0fa54f8-ecd5-467d-bd04-b16c605f3725" />
 
 ---
 
