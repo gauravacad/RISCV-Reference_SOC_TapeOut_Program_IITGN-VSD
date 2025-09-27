@@ -347,7 +347,7 @@ An RCA adds binary numbers using a chain of full adders. To add `n` bits, you ne
 
 ## 7. Labs on Loops and Generate Blocks
 
-### Lab 9: 4-to-1 MUX Using For Loop. **With my experience I found that this will leads to infer a latch**. Let's see how?
+### Lab 9: 4-to-1 MUX Using For Loop. **With my experience I found** that this will leads to infer a latch**. Let's see how?
 - The given code is the below but the output is not assigned with default values.
 
 ```verilog
@@ -367,6 +367,7 @@ always @(*) begin
 end
 endmodule
 ```
+
 ### RTL simulations 
 
 <img width="1015" height="398" alt="Image" src="https://github.com/user-attachments/assets/04edba57-4646-44bc-85d1-86bb9fed0c2b" />
@@ -502,18 +503,16 @@ endmodule
 
 ### Circuit diagram 
 
-<img width="994" height="398" alt="Image" src="https://github.com/user-attachments/assets/b5a943dc-2d9a-40ad-a876-18a2099afffa" />
-
-
 <img width="610" height="684" alt="Image" src="https://github.com/user-attachments/assets/eb07c7bc-3596-45f6-a424-e0d4729cabef" />
 
+---
 
 ### Comparison RTL vs GLS : Matched 
 
 <img width="995" height="623" alt="Image" src="https://github.com/user-attachments/assets/9647a8b5-ac35-40a2-8bff-e715fbbda1b9" />
 ---
 
-> **Note:** Steps to perform the above labs are already shown in [Day 1](https://github.com/Ahtesham18112011/RTL_workshop/tree/main/Day_1).
+> **Note:** Steps to perform the above labs are already shown in [Day 1].
 
 ---
 
