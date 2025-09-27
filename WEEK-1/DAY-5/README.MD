@@ -494,8 +494,23 @@ module fa (input a, input b, input c, output co, output sum);
     assign {co, sum} = a + b + c;
 endmodule
 ```
-![rca_org](https://github.com/user-attachments/assets/1d8876f9-e303-4a73-945e-97756a37bb73)
+### RTL Simulation 
 
+<img width="1210" height="434" alt="Image" src="https://github.com/user-attachments/assets/798f5757-a730-41e8-b15c-9c0a16fefcc1" />
+
+----
+
+### Circuit diagram 
+
+<img width="994" height="398" alt="Image" src="https://github.com/user-attachments/assets/b5a943dc-2d9a-40ad-a876-18a2099afffa" />
+
+
+<img width="610" height="684" alt="Image" src="https://github.com/user-attachments/assets/eb07c7bc-3596-45f6-a424-e0d4729cabef" />
+
+
+### Comparison RTL vs GLS : Matched 
+
+<img width="995" height="623" alt="Image" src="https://github.com/user-attachments/assets/9647a8b5-ac35-40a2-8bff-e715fbbda1b9" />
 ---
 
 > **Note:** Steps to perform the above labs are already shown in [Day 1](https://github.com/Ahtesham18112011/RTL_workshop/tree/main/Day_1).
