@@ -119,13 +119,26 @@ always @(*) begin
 end
 endmodule
 ```
-![in_comp_if](https://github.com/user-attachments/assets/91d1cc1d-bb3a-4ea8-a272-363414777868)
+## RTL Simulation waveform for incomplete-If satatments.
+
+<img width="1006" height="401" alt="Image" src="https://github.com/user-attachments/assets/410a8ca0-54db-4c88-a77f-5dbc0e493c33" />
 
 ---
 
+<img width="612" height="334" alt="Image" src="https://github.com/user-attachments/assets/5963a392-0da6-4cb3-961a-a4686cbe23c2" />
+<img width="996" height="390" alt="Image" src="https://github.com/user-attachments/assets/603761a2-84df-4775-8d9e-f4b99a2f86fc" />
+<img width="612" height="334" alt="Image" src="https://github.com/user-attachments/assets/6274ef43-d6d7-4551-bdff-1b0fe72b8a33" />
+<img width="424" height="218" alt="Image" src="https://github.com/user-attachments/assets/20c9990f-70e1-4af7-8297-c810e807cd48" />
+
 ### Lab 2: Synthesis Result of Lab 1
 
-![incomp_synth](https://github.com/user-attachments/assets/691045e7-39e0-4e6c-98bd-511b501fbe35)
+- **Inference of Latch can be seen in the snapshot while mapping design with standard cells
+
+<img width="538" height="334" alt="Image" src="https://github.com/user-attachments/assets/8a9bb25c-bc4c-4bb8-94f3-013b4c52535d" />
+
+- This section explores the show command and explains the symbols used in the **circuit diagrams** using yosys tool.  
+
+<img width="611" height="410" alt="Image" src="https://github.com/user-attachments/assets/16cfb899-9ed7-401d-9f33-9e6dfabc630a" />
 
 ---
 
