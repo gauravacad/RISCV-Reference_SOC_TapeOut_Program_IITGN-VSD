@@ -80,9 +80,9 @@ module ex (
 endmodule
 ```
 
-**Problem**: When `sel` is 0, `y` is not assigned, so a latch is inferred.
+**Problem**: When `sel` is 0, `y` is not assigned, incomplete output assigment will leads to unintentional latch.
 
-#### Solution `code with default` Yes!!: Add Else for the incomplete `if` and Similarly, use Default Case for `Case Statement`
+#### Solution Mantra: `code with default` Yes!!: Add Else for the incomplete `if` and Similarly, use Default Case for `Case Statement`
 
 ```verilog
 module ex (
