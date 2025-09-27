@@ -93,8 +93,7 @@ Follow the steps from [Day 1 Synthesis Lab](https://github.com/Ahtesham18112011/
 opt_clean -purge
 ```
 
-![Lab 1 Output](https://github.com/user-attachments/assets/4d224d8d-f6f5-4a37-9732-ab570b64e31e)
-
+<img width="570" height="241" alt="Image" src="https://github.com/user-attachments/assets/abbd1a32-74cd-4d97-9da7-75dfd6fa4f00" />
 ---
 
 ### Lab 2
