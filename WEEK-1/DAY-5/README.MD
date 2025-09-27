@@ -156,6 +156,9 @@ endmodule
 
 <img width="996" height="390" alt="Image" src="https://github.com/user-attachments/assets/603761a2-84df-4775-8d9e-f4b99a2f86fc" />
 
+---
+
+### Lab 4: Synthesis Result of Lab 3
 
 - This section explores the show command and explains the symbols used in the **circuit diagrams** using yosys tool for both if cases.  
 
@@ -164,13 +167,6 @@ endmodule
 ---
 
 <img width="612" height="334" alt="Image" src="https://github.com/user-attachments/assets/6274ef43-d6d7-4551-bdff-1b0fe72b8a33" />
-
-
----
-
-### Lab 4: Synthesis Result of Lab 3
-
-![incomp2synth](https://github.com/user-attachments/assets/880ff7bb-23fb-4362-bf8f-a2494a854b53)
 
 ---
 
