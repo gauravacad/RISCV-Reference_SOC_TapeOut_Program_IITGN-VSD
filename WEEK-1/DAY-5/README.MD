@@ -131,10 +131,14 @@ endmodule
 
 <img width="1006" height="401" alt="Image" src="https://github.com/user-attachments/assets/410a8ca0-54db-4c88-a77f-5dbc0e493c33" />
 
+- When io= low and i1= low, the output is constant 
+- When i2=high output follow i3
+
 
 ### Lab 2: Synthesis Result of Lab 1
 
-- **Inference of Latch can be seen in the snapshot while mapping design with standard cells
+- **Inference of Latch can be seen in the snapshot while mapping design with standard cells. Here i0 and i2 both are low, Y latches. 
+
 
 <img width="611" height="410" alt="Image" src="https://github.com/user-attachments/assets/16cfb899-9ed7-401d-9f33-9e6dfabc630a" />
 
@@ -185,13 +189,16 @@ always @(*) begin
 end
 endmodule
 ```
+
 <img width="991" height="402" alt="Image" src="https://github.com/user-attachments/assets/101fee17-432a-40a0-b7a7-a862098fb317" />
+
+- Proper function and no latch inferred. 
 
 ---
 
 ### Lab 6: Synthesis Result of Lab 5
 
-- circuit diagram for the complete case
+- Circuit diagram for the complete case
 
 <img width="964" height="445" alt="Image" src="https://github.com/user-attachments/assets/03082e49-847c-40ea-9687-20380afa73ee" />
 
@@ -217,6 +224,7 @@ endmodule
 ```
 <img width="910" height="393" alt="Image" src="https://github.com/user-attachments/assets/1329ccab-1d8e-4414-87b4-2ba6ebd93a9d" />
 
+- It can be viewed easily from the waveform that at condition `10 and 11` the output has same value
 ### Synthesis circuit diagram 
 
 - The first diagram infers the latch which is clearly observed in other diagram
@@ -256,7 +264,7 @@ always @(*) begin
 end
 endmodule
 ```
-### RTl simulation waveform 
+### RTL simulation waveform 
 
 <img width="991" height="401" alt="Image" src="https://github.com/user-attachments/assets/3cc19978-e594-4b7f-a79f-8c7dea210c6b" />
 
@@ -264,8 +272,9 @@ endmodule
 
 ### Circuit diagram with inferences 
 
-<img width="306" height="314" alt="Image" src="https://github.com/user-attachments/assets/2b5553f7-05d0-4861-9f55-02460d14ec07" />
+<img width="537" height="415" alt="Image" src="https://github.com/user-attachments/assets/442d7fba-64e0-4463-a607-55df7f330b08" />
 
+---
 
 <img width="996" height="501" alt="Image" src="https://github.com/user-attachments/assets/f16ab3eb-063c-4cc3-ad59-07c62c3a79a8" />
 
