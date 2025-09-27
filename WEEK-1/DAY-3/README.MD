@@ -88,7 +88,7 @@ endmodule
   - If `a` is true, `y` is assigned the value of `b`.
   - If `a` is false, `y` is 0.
 
-Follow the steps from [Day 1 Synthesis Lab](https://github.com/Ahtesham18112011/RTL_workshop/tree/main/Day_1#6-synthesis-lab-with-yosys) and add the following between `abc -liberty` and `synth -top`:
+Follow the steps from [Day 1 Synthesis Lab](https://github.com/gauravacad/RISCV-Reference_SOC_TapeOut_Program_IITGN-VSD/tree/main/WEEK-1/Day_1) and add the following between `abc -liberty` and `synth -top`:
 ```shell
 opt_clean -purge
 ```
