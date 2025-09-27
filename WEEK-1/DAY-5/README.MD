@@ -66,6 +66,11 @@ end
 
 **Inferred latches** occur when a combinational logic block does not assign a value to a variable in all possible execution paths. This causes the synthesis tool to infer a latch, which may not be the designer’s intention.
 
+- The Figure shows how latch adds in the circuit unintentionally.
+
+<img width="612" height="334" alt="Image" src="https://github.com/user-attachments/assets/6274ef43-d6d7-4551-bdff-1b0fe72b8a33" />
+
+---
 ### Example of Latch Inference
 
 ```verilog
@@ -121,13 +126,16 @@ endmodule
 ```
 ## RTL Simulation waveform for incomplete-If satatments.
 
+- case I: incomplete if statements Bad coding style
+
 <img width="1006" height="401" alt="Image" src="https://github.com/user-attachments/assets/410a8ca0-54db-4c88-a77f-5dbc0e493c33" />
 
+- Case II:- Incomplete output assignment or defalut value even when If statements are complete.
 ---
 
 <img width="612" height="334" alt="Image" src="https://github.com/user-attachments/assets/5963a392-0da6-4cb3-961a-a4686cbe23c2" />
 <img width="996" height="390" alt="Image" src="https://github.com/user-attachments/assets/603761a2-84df-4775-8d9e-f4b99a2f86fc" />
-<img width="612" height="334" alt="Image" src="https://github.com/user-attachments/assets/6274ef43-d6d7-4551-bdff-1b0fe72b8a33" />
+
 <img width="424" height="218" alt="Image" src="https://github.com/user-attachments/assets/20c9990f-70e1-4af7-8297-c810e807cd48" />
 
 ### Lab 2: Synthesis Result of Lab 1
