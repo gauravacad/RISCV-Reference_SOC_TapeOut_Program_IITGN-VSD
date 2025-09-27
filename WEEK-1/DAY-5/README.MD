@@ -69,7 +69,9 @@ end
 - The Figure shows how latch adds in the circuit unintentionally.
 
 <img width="424" height="218" alt="Image" src="https://github.com/user-attachments/assets/20c9990f-70e1-4af7-8297-c810e807cd48" />
+
 ---
+
 ### Example of Latch Inference
 
 ```verilog
@@ -111,7 +113,7 @@ endmodule
 > "Parallel_case" are Evil Twins!,due to overlapping cases latches are infered accidential. (e.g. 2'b1?) leads to **10** and **11** as true consditions.
 ---                 
 
-## 3. Labs for If-Else and Case Statements
+## 3. Labs for **If-Else** and **Case** Statements
 
 ### Lab 1: Incomplete If Statement
 
@@ -125,23 +127,23 @@ endmodule
 ```
 ## RTL Simulation waveform for incomplete-If satatments.
 
-- case I: incomplete if statements Bad coding style
+- Case I: incomplete if statements Bad coding style
 
 <img width="1006" height="401" alt="Image" src="https://github.com/user-attachments/assets/410a8ca0-54db-4c88-a77f-5dbc0e493c33" />
 
 - Case II:- Incomplete output assignment or defalut value even when If statements are complete.
 ---
 
-
-<img width="612" height="334" alt="Image" src="https://github.com/user-attachments/assets/6274ef43-d6d7-4551-bdff-1b0fe72b8a33" />
+<img width="996" height="390" alt="Image" src="https://github.com/user-attachments/assets/603761a2-84df-4775-8d9e-f4b99a2f86fc" />
 
 
 ### Lab 2: Synthesis Result of Lab 1
 
 - **Inference of Latch can be seen in the snapshot while mapping design with standard cells
 
+<img width="612" height="334" alt="Image" src="https://github.com/user-attachments/assets/6274ef43-d6d7-4551-bdff-1b0fe72b8a33" />
 
-<img width="996" height="390" alt="Image" src="https://github.com/user-attachments/assets/603761a2-84df-4775-8d9e-f4b99a2f86fc" />
+
 
 - This section explores the show command and explains the symbols used in the **circuit diagrams** using yosys tool for both if cases.  
 
