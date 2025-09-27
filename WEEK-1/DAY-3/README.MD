@@ -111,7 +111,12 @@ endmodule
   - `y = 1` if `a` is true.
   - `y = b` if `a` is false.
 
-![Lab 2 Output](https://github.com/user-attachments/assets/59545745-8a8b-4afd-b4d5-0a3ad1d5b80e)
+<img width="573" height="332" alt="Image" src="https://github.com/user-attachments/assets/aecba218-9b27-4c8c-b85a-5fe2d5ab57ea" />
+
+---
+
+<img width="576" height="225" alt="Image" src="https://github.com/user-attachments/assets/e79c6244-23ed-48b7-8de6-84a42af614a4" />
+
 
 ---
 
@@ -120,7 +125,7 @@ endmodule
 Verilog code:
 
 ```verilog
-module opt_check2 (input a , input b , output y);
+module opt_check3 (input a , input b , output y);
 	assign y = a?1:b;
 endmodule
 ```
@@ -128,7 +133,7 @@ endmodule
 **Functionality:**  
 2-to-1 multiplexer; `y = a ? 1 : b` (outputs `1` when `a` is true, otherwise `b`).
 
-![Lab 3 Output](https://github.com/user-attachments/assets/157b16d3-cecd-441a-aacf-bae296910886)
+<img width="951" height="373" alt="Image" src="https://github.com/user-attachments/assets/5bd2ad84-4754-4f24-97d0-43a37346c149" />
 
 ---
 
@@ -150,7 +155,7 @@ module opt_check4 (input a , input b , input c , output y);
 - Logic simplifies to:  
   `y = a ? c : !c`
 
-![Lab 4 Output](https://github.com/user-attachments/assets/08d1e447-78c6-47c4-8c99-239645b38617)
+<img width="953" height="299" alt="Image" src="https://github.com/user-attachments/assets/9ad91a1d-19df-46a4-bc36-50d0e487e8fc" />
 
 ---
 
@@ -175,7 +180,7 @@ endmodule
   - Asynchronous reset to 0
   - Loads constant `1` when not in reset
 
-![Lab 5 Output](https://github.com/user-attachments/assets/a42fac06-a092-4efc-be39-33b263caaaa1)
+<img width="924" height="298" alt="Image" src="https://github.com/user-attachments/assets/a75f6a5c-295f-4c51-9138-afbd68cf8c35" />
 
 ---
 
@@ -198,7 +203,7 @@ endmodule
 **Functionality:**
 - D flip-flop always sets output `q` to `1` (regardless of reset or clock).
 
-![Lab 6 Output](https://github.com/user-attachments/assets/ae45f7db-0a7f-4256-b43b-01cc4a1588f7)
+<img width="561" height="466" alt="Image" src="https://github.com/user-attachments/assets/b596b576-3b54-49e0-a71d-b3227874b17e" />
 
 ---
 
