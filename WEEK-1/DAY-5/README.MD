@@ -231,6 +231,9 @@ endmodule
 ---
 
 ### Lab 8: Partial Assignments in Case
+- In this case two conditions results the confusion for the simulator or complier that is `10 and 11` results to latch.
+
+<img width="306" height="314" alt="Image" src="https://github.com/user-attachments/assets/e0109524-4896-433d-8fb0-0b168e11d63e" />
 
 ```verilog
 module partial_case_assign (
@@ -253,9 +256,21 @@ always @(*) begin
 end
 endmodule
 ```
-![Screenshot_2025-05-28_12-39-30](https://github.com/user-attachments/assets/3f6068f3-726d-4192-b3cd-f88b3611e752)
+### RTl simulation waveform 
 
-> **Note:** Steps to perform the above labs are shown in [Day 1](https://github.com/Ahtesham18112011/RTL_workshop/tree/main/Day_1).
+<img width="991" height="401" alt="Image" src="https://github.com/user-attachments/assets/3cc19978-e594-4b7f-a79f-8c7dea210c6b" />
+
+---
+
+### Circuit diagram with inferences 
+
+<img width="306" height="314" alt="Image" src="https://github.com/user-attachments/assets/2b5553f7-05d0-4861-9f55-02460d14ec07" />
+
+
+<img width="996" height="501" alt="Image" src="https://github.com/user-attachments/assets/f16ab3eb-063c-4cc3-ad59-07c62c3a79a8" />
+
+
+> **Note:** Steps to perform the above labs are shown in [Day 1].
 
 ---
 
