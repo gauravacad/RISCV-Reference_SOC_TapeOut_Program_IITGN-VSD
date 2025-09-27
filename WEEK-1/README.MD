@@ -1,4 +1,4 @@
-# WEEK-1 [RTL Design And Synthesis Workshop Using Sky130](https://github.com/gauravacad/RISCV-Reference_SOC_TapeOut_Program_IITGN-VSD/tree/main/WEEK-1)
+# WEEK-1 [RTL Design And Synthesis Workshop Using Sky130](https://github.com/gauravacad/RISCV-Reference_SOC_TapeOut_Program_IITGN-VSD/tree/main/WEEK-1/)
 
 
 Welcome to the **RTL Workshop**, a hands-on learning series focused on Verilog RTL design, simulation, synthesis, and digital circuit optimization. This repository is structured into multiple days, each with its own practical labs, code examples, and explanations.
