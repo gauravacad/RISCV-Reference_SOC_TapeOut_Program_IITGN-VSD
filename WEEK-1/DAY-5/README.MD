@@ -171,6 +171,8 @@ endmodule
 ---
 
 ### Lab 5: Complete Case Statement
+- Many variants is read under **case statements** like Bad_case, Incomplete_case, partial case and complete case.
+- code for the complete case is presented here.
 
 ```verilog
 module comp_case (input i0, input i1, input i2, input [1:0] sel, output reg y);
@@ -183,13 +185,15 @@ always @(*) begin
 end
 endmodule
 ```
-![compcase](https://github.com/user-attachments/assets/cfe97c45-a487-4f06-b4a2-74b3a61bee14)
+<img width="991" height="402" alt="Image" src="https://github.com/user-attachments/assets/101fee17-432a-40a0-b7a7-a862098fb317" />
 
 ---
 
 ### Lab 6: Synthesis Result of Lab 5
 
-![compcase_synth](https://github.com/user-attachments/assets/8c871511-6e55-4e80-be11-86e9efd87cad)
+- circuit diagram for the complete case
+
+<img width="964" height="445" alt="Image" src="https://github.com/user-attachments/assets/03082e49-847c-40ea-9687-20380afa73ee" />
 
 ---
 
@@ -211,7 +215,18 @@ always @(*) begin
 end
 endmodule
 ```
-![badcase](https://github.com/user-attachments/assets/4ccf37aa-5502-4750-bedb-9b2ec0748a53)
+<img width="910" height="393" alt="Image" src="https://github.com/user-attachments/assets/1329ccab-1d8e-4414-87b4-2ba6ebd93a9d" />
+
+### Synthesis circuit diagram 
+
+- The first diagram infers the latch which is clearly observed in other diagram
+
+<img width="533" height="365" alt="Image" src="https://github.com/user-attachments/assets/eae1db38-ef0e-4a21-b337-b46d1a45723b" />
+
+---
+
+<img width="976" height="381" alt="Image" src="https://github.com/user-attachments/assets/c4892782-e3d4-4664-ad0e-022d1e01021e" />
+
 
 ---
 
