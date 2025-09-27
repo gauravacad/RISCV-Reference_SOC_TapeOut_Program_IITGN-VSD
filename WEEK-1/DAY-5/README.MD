@@ -280,6 +280,7 @@ endmodule
 
 
 > **Note:** Steps to perform the above labs are shown in [Day 1].
+> Case is not mutual exclusive like if statements. That is Case won’t exit even the condition is matched, which can leads to infer latches.
 
 ---
 
@@ -346,7 +347,8 @@ An RCA adds binary numbers using a chain of full adders. To add `n` bits, you ne
 
 ## 7. Labs on Loops and Generate Blocks
 
-### Lab 9: 4-to-1 MUX Using For Loop
+### Lab 9: 4-to-1 MUX Using For Loop. **With my experience I found that this will leads to infer a latch**. Let's see how?
+- The given code is the below but the output is not assigned with default values.
 
 ```verilog
 module mux_generate (
@@ -365,7 +367,40 @@ always @(*) begin
 end
 endmodule
 ```
-![mux_generate](https://github.com/user-attachments/assets/80789638-c349-44a9-92f4-7597d5925c63)
+### RTL simulations 
+
+<img width="1015" height="398" alt="Image" src="https://github.com/user-attachments/assets/04edba57-4646-44bc-85d1-86bb9fed0c2b" />
+
+---
+### Ciruit diagram study 
+
+<img width="1028" height="543" alt="Image" src="https://github.com/user-attachments/assets/dd5d3b87-f396-44c6-8a86-ddf8c895ccc1" />
+
+---
+<img width="864" height="541" alt="Image" src="https://github.com/user-attachments/assets/b7eb9050-1801-4cbf-99e8-48aed8be4836" />
+
+
+```verilog
+module mux_generate (
+    input i0, input i1, input i2, input i3,
+    input [1:0] sel,
+    output reg y
+);
+wire [3:0] i_int;
+assign i_int = {i3, i2, i1, i0};
+integer k;
+always @(*) 
+begin
+  y = 1'b0;  // default which removes the LAtch
+    for (k = 0; k < 4; k = k + 1) begin
+        if (k == sel)
+            y = i_int[k];
+    end
+end
+endmodule
+```
+
+<img width="531" height="343" alt="Image" src="https://github.com/user-attachments/assets/b3ebd32a-4118-442a-aa43-2bc2752e2aaf" />
 
 ---
 
