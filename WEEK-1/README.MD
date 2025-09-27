@@ -39,7 +39,7 @@ This workshop is intended for students, hobbyists, and engineers who want to lea
 
 The workshop is organized by day, each with a dedicated folder and README:
 
-- [Day 1: Introduction to Verilog RTL Design & Synthesis](https://github.com/gauravacad/RISCV-Reference_SOC_TapeOut_Program_IITGN-VSD/tree/main/WEEK-1/Day_1/README.md)
+- [Day 1: Introduction to Verilog RTL Design & Synthesis](https://github.com/gauravacad/RISCV-Reference_SOC_TapeOut_Program_IITGN-VSD/blob/main/WEEK-1/Day_1/README.MD)
 - [Day 2: Timing Libraries, Synthesis Approaches, and Efficient Flip-Flop Coding](https://github.com/gauravacad/RISCV-Reference_SOC_TapeOut_Program_IITGN-VSD/tree/main/WEEK-1/Day_2/README.md)
 - [Day 3: Combinational and Sequential Optimization](https://github.com/gauravacad/RISCV-Reference_SOC_TapeOut_Program_IITGN-VSD/tree/main/WEEK-1/Day-3/README.md)
 - [Day 4: Gate-Level Simulation (GLS), Blocking vs. Non-Blocking in Verilog, and Synthesis-Simulation Mismatch ](https://github.com/gauravacad/RISCV-Reference_SOC_TapeOut_Program_IITGN-VSD/tree/main/WEEK-1/Day-4/README.md)
