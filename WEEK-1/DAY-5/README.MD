@@ -129,6 +129,8 @@ endmodule
 
 - Case I: incomplete if statements Bad coding style
 
+
+
 <img width="1006" height="401" alt="Image" src="https://github.com/user-attachments/assets/410a8ca0-54db-4c88-a77f-5dbc0e493c33" />
 
 - Case II:- Incomplete output assignment or defalut value even when If statements are complete.
@@ -141,18 +143,16 @@ endmodule
 
 - **Inference of Latch can be seen in the snapshot while mapping design with standard cells
 
-<img width="612" height="334" alt="Image" src="https://github.com/user-attachments/assets/6274ef43-d6d7-4551-bdff-1b0fe72b8a33" />
-
-
+<img width="611" height="410" alt="Image" src="https://github.com/user-attachments/assets/16cfb899-9ed7-401d-9f33-9e6dfabc630a" />
 
 - This section explores the show command and explains the symbols used in the **circuit diagrams** using yosys tool for both if cases.  
 
-
-<img width="611" height="410" alt="Image" src="https://github.com/user-attachments/assets/16cfb899-9ed7-401d-9f33-9e6dfabc630a" />
-
 <img width="538" height="334" alt="Image" src="https://github.com/user-attachments/assets/8a9bb25c-bc4c-4bb8-94f3-013b4c52535d" />
 
-<img width="612" height="334" alt="Image" src="https://github.com/user-attachments/assets/5963a392-0da6-4cb3-961a-a4686cbe23c2" />
+---
+
+<img width="612" height="334" alt="Image" src="https://github.com/user-attachments/assets/6274ef43-d6d7-4551-bdff-1b0fe72b8a33" />
+
 ---
 
 ### Lab 3: Nested If-Else
