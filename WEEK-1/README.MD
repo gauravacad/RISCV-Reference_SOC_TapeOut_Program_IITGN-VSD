@@ -11,7 +11,6 @@ Welcome to the **RTL Workshop**, a hands-on learning series focused on Verilog R
 - [About This Workshop](#about-this-workshop)
 - [Prerequisites](#prerequisites)
 - [Workshop Structure](#workshop-structure)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ---
@@ -53,18 +52,12 @@ Each day’s README includes:
 
 ---
 
-## License
-
-This project is licensed under the Attribution 4.0 International License - see the [LICENSE](./LICENSE) file for details.
-
 ## Acknowledgements 👑
 
-*  [Shon Taware](https://www.linkedin.com/in/shon-taware/)
+
 *  [Kunal Ghosh](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/)
 *  Open-source tools providers like Yosys and Sky130 PDK.
- 
 
-![Author: Ahtesham](https://img.shields.io/badge/author-Ahtesham-blue)
 ---
 
 ## 6. 🎯 Summary & Key Takeways
